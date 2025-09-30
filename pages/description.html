@@ -9,6 +9,33 @@
 </head>
 
 <body>
+    <header class="container header">
+        <a href="\">
+            <img width="50" height="50" src="../public/logo.png" alt="Logo de la aplicacion de calendar Anime">
+        </a>
+        <form role="search" class="search">
+            <div class="field_search">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="icon_search">
+                    <path fill-rule="evenodd"
+                        d="M10.5 3.75a6.75 6.75 0 1 0 0 13.5 6.75 6.75 0 0 0 0-13.5ZM2.25 10.5a8.25 8.25 0 1 1 14.59 5.28l4.69 4.69a.75.75 0 1 1-1.06 1.06l-4.69-4.69A8.25 8.25 0 0 1 2.25 10.5Z"
+                        clip-rule="evenodd" />
+                </svg>
+
+                <input class="input_search" type="search" placeholder="Tonikaku Kawaii, Kusuriya no Hitorigoto, ..." />
+
+                <button class="button_search" type="submit">
+                    Buscar
+                </button>
+            </div>
+        </form>
+        <a href="pages/calendar.html">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50px" height="50px" viewBox="0 0 64 64" stroke-width="3"
+                stroke="#000000" fill="none">
+                <circle cx="32" cy="18.14" r="11.14" />
+                <path d="M54.55,56.85A22.55,22.55,0,0,0,32,34.3h0A22.55,22.55,0,0,0,9.45,56.85Z" />
+            </svg>
+        </a>
+    </header>
     <main class="container container-description">
         <article class="card-description">
             <header>
@@ -19,8 +46,8 @@
                     <svg xmlns="http://www.w3.org/2000/svg" width="50px" height="50px" viewBox="0 0 24 24" fill="none">
                         <path d="M12 21V10C12 7.23858 9.76142 5 7 5H3V18.7143" stroke="currentcolor" stroke-width="2"
                             stroke-linecap="round" stroke-linejoin="round" />
-                        <path d="M3 19H7.5C10.5 19 11 20 12 21" stroke="currentcolor" stroke-width="2" stroke-linecap="round"
-                            stroke-linejoin="round" />
+                        <path d="M3 19H7.5C10.5 19 11 20 12 21" stroke="currentcolor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" />
                         <path d="M12 21V10C12 7.23858 14.2386 5 17 5H21V18.7143" stroke="currentcolor" stroke-width="2"
                             stroke-linecap="round" stroke-linejoin="round" />
                         <path d="M21 19H16.5C13.5 19 13 20 12 21" stroke="currentcolor" stroke-width="2"
@@ -36,38 +63,38 @@
                     <p>Episodios : <span>13</span></p>
                     <p>Emisión : <span>Finalizada</span></p>
                 </div>
-                
+
                 <p class="info-description">Sigue a Naofumi y su grupo mientras se enfrentan a la furiosa Tortuga
                     Espíritu,
                     una bestia colosal que amenaza al mundo, y luego viajan a un mundo alternativo donde se encuentran
                     con el Héroe Cazador Kizuna y los portadores de armas vasallos Glass y L'Arc para detener al cerebro
                     Kyo Ethnina de usar el poder de la tortuga para sus propios planes destructivos.</p>
-                    
-                    <div class="genders">
-                        <span>
-                            Acción
-                        </span>
-                        <span>
-                            Aventura
-                        </span>
-                        <span>
-                            Drama
-                        </span>
-                        <span>
-                            Fantasía Oscura
-                        </span>
-                        <span>
-                            Isekai
-                        </span>
-                    </div>
-                    <div class="actions">
-                        <!-- <button disabled>Ver Trailer</button> -->
-                        <select name="" id="">
-                            <option disabled selected value="">Estado de Visualizacion</option>
-                            <option value="">Agendado</option>
-                            <option value="">Completado</option>
-                            <option value="">En curso</option>
-                        </select>
+
+                <div class="genders">
+                    <span>
+                        Acción
+                    </span>
+                    <span>
+                        Aventura
+                    </span>
+                    <span>
+                        Drama
+                    </span>
+                    <span>
+                        Fantasía Oscura
+                    </span>
+                    <span>
+                        Isekai
+                    </span>
+                </div>
+                <div class="actions">
+                    <!-- <button disabled>Ver Trailer</button> -->
+                    <select name="" id="">
+                        <option disabled selected value="">Estado de Visualizacion</option>
+                        <option value="">Agendado</option>
+                        <option value="">Completado</option>
+                        <option value="">En curso</option>
+                    </select>
                 </div>
             </div>
         </article>
