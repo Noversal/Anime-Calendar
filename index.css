@@ -57,7 +57,11 @@
 }
 
 .header {
+    flex-direction: row;
     align-items: center;
+    justify-content: space-between;
+    padding: 12px 58px;
+    width: 100%;
 }
 
 
