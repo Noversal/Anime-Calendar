@@ -94,7 +94,7 @@ select {
     position: relative;
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 4px;
     width: 100%;
 }
 
