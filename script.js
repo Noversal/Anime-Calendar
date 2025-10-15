@@ -10,7 +10,7 @@ getAllAnimes().then(animes => {
     animes.forEach(({ title, img, id }, i) => {
         const card_anime = `
                       <article class="card_anime">
-                          <a href="./description.html?id=${id}">
+                          <a href="./pages/description.html?id=${id}">
                               <img width="164" height="255" src="${img}" alt="portada de ${title}">
                               <div class="shadow"></div>
                               <h3>${title}</h3>
