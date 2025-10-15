@@ -3,6 +3,7 @@
 .card-description {
     display: flex;
     gap: 20px;
+    margin: auto;
 }
 
 .poster img{
