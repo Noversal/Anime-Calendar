@@ -50,6 +50,6 @@
     top: 0;
 }
 
-.card_anime:hover .card_anime  h3 {
+.card_anime:hover h3 {
     visibility: visible;
 }
