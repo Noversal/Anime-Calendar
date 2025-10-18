@@ -12,12 +12,15 @@ const getAnimesByCategory = async ({ category }) => {
 
 function createSection({ animes, category, limit = 4 }) {
   const sectionAnimeContainer = document.createElement("section");
+  sectionAnimeContainer.classList.add("section-anime");
   const headerSection = document.createElement("header");
+  headerSection.classList.add("header-anime");
   headerSection.innerHTML = `
     <h2>${category}</h2>
     <a href="/categoria.html">Ver +</a>
   `;
   const containAnimes = document.createElement("div");
+  containAnimes.classList.add("content-animes");
 
   animes.forEach(({ title, img, id }, i) => {
     if (i < limit) {
