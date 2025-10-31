@@ -1,30 +1,25 @@
 const getAllAnimes = async () => {
-  const response = await fetch("./animes.json");
-  const animes = response.json();
-  return animes;
+	const response = await fetch("./animes.json");
+	const animes = response.json();
+	return animes;
 };
 
 const getAnimesByCategory = async ({ category }) => {
-  const response = await fetch(`./animes${category}.json`);
-  const animes = response.json();
-  return animes;
+	const response = await fetch(`./animes${category}.json`);
+	const animes = response.json();
+	return animes;
 };
 
-function createSection({ animes, category, limit = 4 }) {
-  const sectionAnimeContainer = document.createElement("section");
-  sectionAnimeContainer.classList.add("section-anime");
-  const headerSection = document.createElement("header");
-  headerSection.classList.add("header-anime");
-  headerSection.innerHTML = `
-    <h2>${category}</h2>
-    <a href="/categoria.html">Ver +</a>
-  `;
-  const containAnimes = document.createElement("div");
-  containAnimes.classList.add("content-animes");
+function createSection({ animes, limit = 16 }) {
+	const sectionAnimeContainer = document.createElement("section");
+	sectionAnimeContainer.classList.add("section-anime");
 
-  animes.forEach(({ title, img, id }, i) => {
-    if (i < limit) {
-      const card_anime = `
+	const containAnimes = document.createElement("div");
+	containAnimes.classList.add("content-animes");
+
+	animes.forEach(({ title, img, id }, i) => {
+		if (i < limit) {
+			const card_anime = `
                           <article class="card_anime">
                               <a href="./pages/description?id=${id}">
                                   <img width="230" height="370" src="${img}" alt="portada de ${title}">
@@ -33,28 +28,19 @@ function createSection({ animes, category, limit = 4 }) {
                               </a>
                           </article>
                       `;
-      containAnimes.innerHTML += card_anime;
-    }
-  });
-  sectionAnimeContainer.appendChild(headerSection);
-  sectionAnimeContainer.appendChild(containAnimes);
+			containAnimes.innerHTML += card_anime;
+		}
+	});
 
-  return sectionAnimeContainer;
+	sectionAnimeContainer.appendChild(containAnimes);
+
+	return sectionAnimeContainer;
 }
 
 const template = document.querySelector(".anime_container");
-const emsionAnimes = await getAnimesByCategory({ category: "Emision" });
-const completadoAnimes = await getAnimesByCategory({
-  category: "Completados",
-});
+const emsionAnimes = await getAllAnimes();
 const sectionEmision = createSection({
-  animes: emsionAnimes,
-  category: "Emision",
-});
-const sectionCompletado = createSection({
-  animes: completadoAnimes,
-  category: "Completado",
+	animes: emsionAnimes,
 });
 
 template.appendChild(sectionEmision);
-template.appendChild(sectionCompletado);
