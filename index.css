@@ -1,5 +1,9 @@
 @import "global.css";
 
+.nav-header {
+    padding-inline: 24px;
+}
+
 .anime_container {
     display: flex;
     flex-direction: column;
@@ -7,7 +11,6 @@
     gap: 20px;
     flex-wrap: wrap;
 }
-
 
 .header-anime {
     display: flex;
@@ -39,32 +42,50 @@
     display: flex;
     justify-content: center;
     padding-block: 12px;
+    width: 100%;
 }
 
 .state-views_button {
     display: flex;
     justify-content: center;
-    background: var(--fuchsia-pink-100);
+    background: var(--slate-950);
     padding: 12px;
     border-radius: 75px;
     gap: 12px;
+    width: auto;
 
     .active {
-        background: var(--fuchsia-pink-800);
+        background: var(--fuchsia-pink-600);
         color: var(--slate-100);
     }
 
     button {
-        background: none;
+        background: var(--slate-900);
         color: var(--slate-400);
         font-size: 0.875rem;
         padding: 8px 16px;
         border-radius: 75px;
         border: none;
         transition: all 0.3s ease-in-out;
+        width: 100%;
 
         /* &:not(.active):hover {
             background: var(--fuchsia-pink-700);
         } */
     }
+}
+
+.add-anime {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    background: var(--fuchsia-pink-600);
+    color: var(--slate-50)
+}
+
+.logo {
+    filter: invert(1) sepia(1) saturate(5) hue-rotate(290deg);
+    object-fit: cover;
 }

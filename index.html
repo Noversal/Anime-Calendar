@@ -13,16 +13,17 @@
     <!-- <h1>Esta es la page princial del calendario de Anime</h1>
     <p>Te olvidas que animes estas viendo o cuales ya has visto</p>
     <p>Este es tu lugar para agendarlos y no volver a olvidarlo</p> -->
-    <header class="container header">
+    <header class="container header nav-header">
         <a href="./">
-            <img width="35" height="35" src="public/logo.png" alt="Logo de la aplicacion de calendar Anime">
+            <img class="logo" width="35" height="35" src="public/logo-black3.png"
+                alt="Logo de la aplicacion de calendar Anime">
         </a>
 
-        <a href="pages/calendar.html">
+        <a href="pages/calendar.html" class="add-anime">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                <path d="M3.3335 8H12.6668" stroke="#171717" stroke-width="1.33333" stroke-linecap="round"
+                <path d="M3.3335 8H12.6668" stroke="currentcolor" stroke-width="1.33333" stroke-linecap="round"
                     stroke-linejoin="round" />
-                <path d="M8 3.3335V12.6668" stroke="#171717" stroke-width="1.33333" stroke-linecap="round"
+                <path d="M8 3.3335V12.6668" stroke="currentcolor" stroke-width="1.33333" stroke-linecap="round"
                     stroke-linejoin="round" />
             </svg>
             <span>Agregar Animes</span>
@@ -30,7 +31,7 @@
     </header>
 
     <section id="animes">
-        <header class="state-views">
+        <header class="state-views container">
             <div class="state-views_button">
                 <button>En Curso</button>
                 <button class="active">Pendiente</button>

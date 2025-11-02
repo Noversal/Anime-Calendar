@@ -21,7 +21,7 @@ function createSection({ animes, limit = 16 }) {
 		if (i < limit) {
 			const card_anime = `
                           <article class="card_anime">
-                              <a href="./pages/description?id=${id}">
+                              <a href="./pages/description/?id=${id}">
                                   <img width="230" height="370" src="${img}" alt="portada de ${title}">
                                   <div class="shadow"></div>
                                   <h3>${title}</h3>
