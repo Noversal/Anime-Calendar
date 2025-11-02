@@ -44,3 +44,12 @@ const sectionEmision = createSection({
 });
 
 template.appendChild(sectionEmision);
+
+const stateViewsButton = document.querySelector(".state-views_button");
+
+stateViewsButton.addEventListener("click", (e) => {
+	const actualActive = stateViewsButton.querySelector(".active");
+	actualActive.classList.remove("active");
+	const stateButton = e.target;
+	stateButton.classList.add("active");
+});
