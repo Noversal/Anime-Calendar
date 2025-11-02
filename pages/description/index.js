@@ -1,21 +1,21 @@
 const getAllAnimes = async () => {
-  const response = await fetch("../animes.json");
-  const animes = response.json();
-  return animes;
+	const response = await fetch("../../animes.json");
+	const animes = response.json();
+	return animes;
 };
 
 const animeByID = async ({ id }) => {
-  const animes = await getAllAnimes();
-  return animes.find((anime) => anime.id == id) ?? "";
+	const animes = await getAllAnimes();
+	return animes.find((anime) => anime.id == id) ?? "";
 };
 
 const params = new URLSearchParams(window.location.search);
 const animeId = params.get("id");
 
 animeByID({ id: animeId }).then((anime) => {
-  const containerDescription = document.querySelector(".container-description");
+	const containerDescription = document.querySelector(".container-description");
 
-  const animeDescription = `<article class="card-description">
+	const animeDescription = `<article class="card-description">
                 <header>
                     <picture class="poster">
                         <img src="${anime.img}" alt="Caratula de el anime ${anime.title}">
@@ -45,9 +45,11 @@ animeByID({ id: animeId }).then((anime) => {
                     <p class="info-description">${anime.description}</p>
     
                     <div class="genders">
-                        ${anime.category.map(categorie => {   
-                            return `<span>${categorie}</span>`
-                        }).join("")}
+                        ${anime.category
+													.map((categorie) => {
+														return `<span>${categorie}</span>`;
+													})
+													.join("")}
                     </div>
                     <div class="actions">
                         <!-- <button disabled>Ver Trailer</button> -->
@@ -61,5 +63,5 @@ animeByID({ id: animeId }).then((anime) => {
                 </div>
             </article>`;
 
-  containerDescription.innerHTML = animeDescription;
+	containerDescription.innerHTML = animeDescription;
 });
