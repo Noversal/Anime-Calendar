@@ -1,331 +1,378 @@
 [
-  {
-    "id": "1",
-    "title": "Hori-san to Miyamura-kun",
-    "img": "https://cdn.myanimelist.net/images/anime/1695/111486.jpg",
-    "category": ["Romance", "Recuentos de la vida", "Comedia", "Escolar"],
-    "description": "Kyouko Hori es popular y extrovertida en la escuela, mientras que Izumi Miyamura parece tímido y reservado. Sin embargo, ambos esconden sus verdaderas personalidades. Cuando se encuentran por casualidad fuera de la escuela, descubren sus lados ocultos y desarrollan una inesperada amistad que se convierte en algo más profundo."
-  },
-  {
-    "id": "2",
-    "title": "Watashi ga Koibito ni Nareru Wake Nai jan, Muri Muri!",
-    "img": "https://cdn.myanimelist.net/images/anime/1874/152186.jpg",
-    "category": ["Romance", "Comedia", "Escolar"],
-    "description": "Renako Amaori nunca pensó que podría convertirse en la novia de alguien. Sin embargo, su vida da un giro inesperado cuando chicas de su escuela comienzan a confesar sus sentimientos hacia ella. Ahora debe navegar por estas situaciones románticas que nunca imaginó experimentar."
-  },
-  {
-    "id": "3",
-    "title": "Spy x Family 2nd Season",
-    "img": "https://cdn.myanimelist.net/images/anime/1506/138982.jpg",
-    "category": ["Acción", "Comedia", "Recuentos de la vida"],
-    "description": "El espía Twilight debe formar una familia falsa para completar su misión. Sin saberlo, adopta a Anya, una niña con poderes telepáticos, y se casa con Yor, una asesina profesional. Esta peculiar familia debe mantener sus secretos mientras enfrentan nuevos desafíos y misiones, creando situaciones hilarantes y conmovedoras."
-  },
-  {
-    "id": "4",
-    "title": "Attack on Titan Final Season Part 2",
-    "img": "https://cdn.myanimelist.net/images/anime/1948/120625.jpg",
-    "category": ["Acción", "Drama", "Fantasía", "Militar"],
-    "description": "La guerra entre Marley y las fuerzas de Eldia alcanza su punto crítico. Eren Yeager avanza con su devastador plan mientras sus antiguos amigos deben tomar decisiones imposibles. El conflicto final por el futuro de la humanidad se desarrolla con revelaciones impactantes y batallas épicas que definirán el destino del mundo."
-  },
-  {
-    "id": "5",
-    "title": "Kimetsu no Yaiba: Yuukaku-hen",
-    "img": "https://cdn.myanimelist.net/images/anime/1908/120036.jpg",
-    "category": ["Acción", "Fantasía", "Shounen", "Sobrenatural"],
-    "description": "Tanjiro y sus amigos se infiltran en el Distrito Rojo de entretenimiento para investigar la desaparición de varias personas. Junto al Pilar del Sonido, Tengen Uzui, se enfrentarán a demonios de las Lunas Superiores en batallas intensas que pondrán a prueba sus habilidades y determinación como cazadores de demonios."
-  },
-  {
-    "id": "6",
-    "title": "My Hero Academia Season 6",
-    "img": "https://cdn.myanimelist.net/images/anime/1483/126005.jpg",
-    "category": ["Acción", "Shounen", "Superhéroes", "Escolar"],
-    "description": "La guerra entre héroes y villanos estalla en su forma más devastadora. Los estudiantes de U.A. se unen a los héroes profesionales para detener el Frente de Liberación Paranormal. Deku y sus compañeros enfrentarán sus batallas más peligrosas mientras la sociedad de héroes tambalea al borde del colapso."
-  },
-  {
-    "id": "7",
-    "title": "Blue Lock",
-    "img": "https://cdn.myanimelist.net/images/anime/1258/126929.jpg",
-    "category": ["Deportes", "Shounen", "Drama"],
-    "description": "Después de que Japón no logre clasificar al Mundial, se crea el Proyecto Blue Lock, un programa extremo para encontrar al delantero más egoísta del país. Yoichi Isagi y otros 299 jugadores compiten en desafíos intensos donde solo el más despiadado podrá convertirse en el mejor delantero de Japón."
-  },
-  {
-    "id": "8",
-    "title": "Vinland Saga Season 2",
-    "img": "https://cdn.myanimelist.net/images/anime/1170/124312.jpg",
-    "category": ["Acción", "Drama", "Histórico", "Seinen"],
-    "description": "Thorfinn ha perdido su sed de venganza pero también su propósito en la vida. Ahora esclavizado en una granja, debe encontrar una nueva razón para vivir. Esta temporada explora temas de redención, pacifismo y la búsqueda de la tierra prometida de Vinland, mientras Thorfinn intenta convertirse en un verdadero guerrero sin derramar sangre."
-  },
-  {
-    "id": "9",
-    "title": "Tokyo Revengers: Tenjiku Arc",
-    "img": "https://cdn.myanimelist.net/images/anime/1853/139843.jpg",
-    "category": ["Acción", "Drama", "Sobrenatural", "Shounen"],
-    "description": "Takemichi enfrenta su mayor desafío cuando la banda Tenjiku amenaza con destruir a Toman. Con nuevos enemigos más peligrosos que nunca, debe viajar en el tiempo una vez más para evitar tragedias futuras. La batalla definitiva por el futuro de sus amigos y el destino de las pandillas de Tokyo está por comenzar."
-  },
-  {
-    "id": "12",
-    "title": "Mob Psycho 100 III",
-    "img": "https://cdn.myanimelist.net/images/anime/1228/125011.jpg",
-    "category": ["Acción", "Comedia", "Sobrenatural", "Recuentos de la vida"],
-    "description": "Shigeo Kageyama continúa su vida cotidiana mientras intenta mejorar como persona. Sin embargo, nuevas amenazas sobrenaturales emergen y sus emociones reprimidas amenazan con descontrolarse. En la temporada final, Mob debe enfrentar sus mayores miedos y tomar decisiones cruciales sobre quién quiere ser realmente."
-  },
-  {
-    "id": "13",
-    "title": "Made in Abyss: The Golden City of the Scorching Sun",
-    "img": "https://cdn.myanimelist.net/images/anime/1864/122519.jpg",
-    "category": ["Aventura", "Fantasía", "Misterio", "Drama"],
-    "description": "Riko, Reg y Nanachi llegan a la sexta capa del Abismo y descubren la misteriosa Ciudad Dorada. Allí se encuentran con Faputa, una criatura con un oscuro pasado conectado al origen de la ciudad. Los secretos del Abismo se revelan mientras los aventureros enfrentan decisiones morales desgarradoras en este peligroso viaje."
-  },
-  {
-    "id": "14",
-    "title": "The Rising of the Shield Hero Season 2",
-    "img": "https://cdn.myanimelist.net/images/anime/1143/121873.jpg",
-    "category": ["Aventura", "Fantasía", "Isekai", "Drama"],
-    "description": "Naofumi y su grupo enfrentan las Olas de Calamidad en un mundo diferente al que conocían. Nuevos enemigos llamados los Héroes del Vasallo aparecen, y el Héroe del Escudo debe proteger múltiples dimensiones. Mientras tanto, surgen secretos sobre el verdadero origen de las Olas y el papel de los Héroes Legendarios."
-  },
-  {
-    "id": "15",
-    "title": "Kaguya-sama: Love is War - Ultra Romantic",
-    "img": "https://cdn.myanimelist.net/images/anime/1160/122627.jpg",
-    "category": ["Romance", "Comedia", "Escolar", "Seinen"],
-    "description": "La batalla mental entre Kaguya y Miyuki para hacer que el otro confiese su amor alcanza nuevas alturas. Con el festival cultural como telón de fondo, sus sentimientos se vuelven más difíciles de ocultar. Los juegos psicológicos dan paso a momentos genuinamente románticos en esta temporada que cambia las reglas del juego."
-  },
-  {
-    "id": "16",
-    "title": "Shokei Shoujo no Virgin Road",
-    "img": "https://cdn.myanimelist.net/images/anime/1423/122029.jpg",
-    "category": ["Fantasía", "Isekai", "Drama", "Aventura"],
-    "description": "Menou es una ejecutora cuya misión es eliminar a los Otherworlders, personas de otro mundo que traen destrucción. Cuando conoce a Akari, una chica de Japón que no puede ser asesinada, su mundo se complica. Juntas emprenden un viaje donde los conceptos de justicia, deber y amistad se ponen a prueba."
-  },
-  {
-    "id": "17",
-    "title": "Summertime Rendering",
-    "img": "https://cdn.myanimelist.net/images/manga/3/261167.jpg",
-    "category": ["Misterio", "Thriller", "Sobrenatural", "Ciencia Ficción"],
-    "description": "Shinpei regresa a su isla natal para el funeral de su amiga de la infancia, pero descubre que su muerte esconde un misterio sobrenatural. Atrapado en un bucle temporal, debe descubrir la verdad sobre las 'Sombras' que amenazan a los habitantes de la isla antes de que sea demasiado tarde para salvar a todos."
-  },
-  {
-    "id": "19",
-    "title": "Ookami Kodomo no Ame to Yuki",
-    "img": "https://cdn.myanimelist.net/images/anime/9/35721.jpg",
-    "category": ["Fantasía", "Recuentos de la vida", "Drama"],
-    "description": "Hana se enamora de un hombre lobo y juntos tienen dos hijos, Ame y Yuki, que pueden transformarse en lobos. Tras quedarse viuda, Hana se muda al campo para criar a sus hijos en secreto. Esta emotiva historia sigue su lucha por criar niños mitad humanos mitad lobos mientras ellos buscan su propia identidad."
-  },
-  {
-    "id": "20",
-    "title": "Fruits Basket: Prelude",
-    "img": "https://cdn.myanimelist.net/images/anime/1034/120096.jpg",
-    "category": ["Romance", "Drama", "Sobrenatural", "Shoujo"],
-    "description": "Esta película precuela narra la historia de amor entre Katsuya y Kyoko, los padres de Tohru Honda. Revela cómo se conocieron, su relación contra todo pronóstico y los eventos que moldearon a Kyoko en la persona que Tohru tanto admiraba. Una historia conmovedora sobre el amor, la pérdida y el legado familiar."
-  },
-  {
-    "id": "21",
-    "title": "Beastars Season 2",
-    "img": "https://cdn.myanimelist.net/images/anime/1097/109646.jpg",
-    "category": ["Drama", "Psicológico", "Romance", "Recuentos de la vida"],
-    "description": "Legoshi continúa su búsqueda del asesino de Tem mientras lidia con sus complejos sentimientos hacia Haru. El mundo de los animales antropomorfos revela más tensiones entre herbívoros y carnívoros. Legoshi debe confrontar su naturaleza de lobo y decidir qué tipo de bestia quiere ser en una sociedad llena de prejuicios."
-  },
-  {
-    "id": "22",
-    "title": "Oshi no Ko",
-    "img": "https://cdn.myanimelist.net/images/anime/1812/134736.jpg",
-    "category": ["Drama", "Misterio", "Sobrenatural", "Seinen"],
-    "description": "Un ginecólogo y su paciente fan son reencarnados como los hijos gemelos de su ídolo, Ai Hoshino. Tras una tragedia devastadora, los gemelos Aqua y Ruby se adentran en el mundo del entretenimiento, cada uno con sus propios objetivos. Aqua busca venganza mientras Ruby persigue sus sueños de ser ídolo en esta oscura historia sobre la industria del espectáculo."
-  },
-  {
-    "id": "23",
-    "title": "Buddy Daddies",
-    "img": "https://cdn.myanimelist.net/images/anime/1553/133767.jpg",
-    "category": ["Acción", "Comedia", "Recuentos de la vida"],
-    "description": "Kazuki y Rei son asesinos profesionales cuyas vidas dan un giro inesperado cuando una niña llamada Miri aparece buscando a su padre. Descubriendo que uno de ellos podría serlo, deciden cuidarla juntos. Esta peculiar familia improvisada equilibra misiones de asesinato con las responsabilidades de criar a una niña enérgica de preescolar."
-  },
-  {
-    "id": "24",
-    "title": "Insomniacs After School",
-    "img": "https://cdn.myanimelist.net/images/manga/2/221335.jpg",
-    "category": ["Romance", "Recuentos de la vida", "Escolar"],
-    "description": "Ganta Nakami e Isaki Magari sufren de insomnio crónico. Cuando descubren que ambos pueden dormir en el abandonado observatorio de la escuela, forman una conexión especial. Juntos reviven el club de astronomía y encuentran consuelo en su compañía nocturna, desarrollando una dulce historia de romance bajo las estrellas."
-  },
-  {
-    "id": "25",
-    "title": "Birdie Wing: Golf Girls' Story Season 2",
-    "img": "https://cdn.myanimelist.net/images/anime/1407/135263.jpg",
-    "category": ["Deportes", "Drama"],
-    "description": "Eve regresa a Japón para enfrentar su pasado y reunirse con Aoi. Las dos golfistas prodigio deben superar obstáculos personales y rivalidades intensas mientras compiten en torneos de alto nivel. Con apuestas cada vez más altas y secretos del pasado de Eve revelándose, ambas lucharán por sus sueños en el campo de golf."
-  },
-  {
-    "id": "26",
-    "title": "Dekiru Neko wa Kyou mo Yuuutsu",
-    "img": "https://cdn.myanimelist.net/images/anime/1074/136720.jpg",
-    "category": ["Comedia", "Recuentos de la vida"],
-    "description": "Saku es un gato extraordinario que puede hacer las tareas del hogar mejor que cualquier humano. Vive con Yukichi, su dueño humano algo inútil. Mientras Saku cocina, limpia y se preocupa por el bienestar de Yukichi, se pregunta con melancolía si su dueño alguna vez aprenderá a cuidarse solo en esta adorable comedia cotidiana."
-  },
-  {
-    "id": "27",
-    "title": "Spy Kyoushitsu 2nd Season",
-    "img": "https://cdn.myanimelist.net/images/anime/1317/136666.jpg",
-    "category": ["Acción", "Misterio", "Fantasía"],
-    "description": "Klaus y sus chicas espías del equipo Lamplight enfrentan nuevas misiones imposibles. Cada miembro tiene un pasado oscuro y habilidades únicas, pero su tasa de mortalidad es la más alta. Deben usar su ingenio y trabajo en equipo para completar operaciones de espionaje suicidas mientras descubren más sobre los secretos de su misterioso instructor."
-  },
-  {
-    "id": "28",
-    "title": "Shiguang Dailiren II",
-    "img": "https://cdn.myanimelist.net/images/anime/1897/137108.jpg",
-    "category": ["Misterio", "Drama", "Sobrenatural", "Ciencia Ficción"],
-    "description": "Cheng Xiaoshi y Lu Guang continúan usando sus poderes para sumergirse en fotografías y alterar el pasado. Nuevos casos los llevan a desentrañar misterios más complejos y peligrosos. Mientras ayudan a sus clientes a resolver tragedias del pasado, deben lidiar con las consecuencias de cambiar el tiempo y secretos oscuros que conectan sus misiones."
-  },
-  {
-    "id": "29",
-    "title": "Zom 100: Zombie ni Naru made ni Shitai 100 no Koto",
-    "img": "https://cdn.myanimelist.net/images/anime/1384/136408.jpg",
-    "category": ["Comedia", "Horror", "Acción", "Sobrenatural"],
-    "description": "Akira Tendou estaba atrapado en un trabajo corporativo miserable hasta que un apocalipsis zombie libera su espíritu. En lugar de huir con terror, crea una lista de 100 cosas que quiere hacer antes de convertirse en zombie. Con sus amigos, emprende aventuras absurdas y emocionantes en un mundo post-apocalíptico, redescubriendo la alegría de vivir."
-  },
-  {
-    "id": "30",
-    "title": "Mushoku Tensei II: Isekai Ittara Honki Dasu Part 2",
-    "img": "https://cdn.myanimelist.net/images/anime/1876/141251.jpg",
-    "category": ["Fantasía", "Isekai", "Drama", "Aventura"],
-    "description": "Rudeus continúa su viaje en el mundo mágico mientras enfrenta traumas de su pasado y desafíos del presente. Después de la crisis de desplazamiento mágico, debe reunirse con su familia dispersa. Entre batallas épicas, crecimiento mágico y relaciones complejas, Rudeus aprende que la redención y la madurez requieren más que poder mágico."
-  },
-  {
-    "id": "31",
-    "title": "Jujutsu Kaisen Season 2",
-    "img": "https://cdn.myanimelist.net/images/anime/1792/138022.jpg",
-    "category": ["Acción", "Fantasía", "Shounen", "Sobrenatural"],
-    "description": "Esta temporada revela el pasado de Gojo Satoru y su amistad con Geto Suguru durante sus días en la escuela técnica. Después, la historia salta al presente con el Incidente de Shibuya, donde hechiceros y maldiciones se enfrentan en una batalla devastadora. Traiciones, sacrificios y poderes sobrenaturales chocan en el arco más oscuro de la serie."
-  },
-  {
-    "id": "32",
-    "title": "Suki na Ko ga Megane wo Wasureta",
-    "img": "https://cdn.myanimelist.net/images/anime/1582/136325.jpg",
-    "category": ["Romance", "Comedia", "Escolar", "Recuentos de la vida"],
-    "description": "Komura está secretamente enamorado de su compañera de clase Mie, quien constantemente olvida sus anteojos. Cuando ella no puede ver bien, se acerca mucho a él, haciendo que su corazón se acelere. Esta adorable comedia romántica sigue sus interacciones cotidianas llenas de momentos dulces y embarazosos mientras Komura intenta controlar sus sentimientos."
-  },
-  {
-    "id": "33",
-    "title": "Uchi no Kaisha no Chiisai Senpai no Hanashi",
-    "img": "https://cdn.myanimelist.net/images/anime/1984/136274.jpg",
-    "category": ["Romance", "Recuentos de la vida", "Comedia"],
-    "description": "Shinozaki es un empleado de oficina torpe que conoce a Shiori Katase, su pequeña pero confiable senpai. A pesar de su baja estatura, ella es extremadamente competente y amable, siempre ayudándolo a adaptarse al trabajo. Lo que comienza como una relación mentor-aprendiz gradualmente se transforma en algo más dulce en esta encantadora comedia romántica de oficina."
-  },
-  {
-    "id": "34",
-    "title": "Sugar Apple Fairy Tale Part 2",
-    "img": "https://cdn.myanimelist.net/images/anime/1693/138042.jpg",
-    "category": ["Fantasía", "Romance", "Aventura"],
-    "description": "Anne Halford continúa su viaje para convertirse en una Maestra Artesana de Dulces de Plata. Su relación con Challe, un hada guerrera, se profundiza mientras enfrentan nuevos desafíos en un mundo donde las hadas son tratadas como esclavos. Anne debe superar prejuicios sociales y competencia feroz mientras lucha por sus sueños y por cambiar el mundo."
-  },
-  {
-    "id": "35",
-    "title": "Tonikaku Kawaii",
-    "img": "https://cdn.myanimelist.net/images/anime/1613/108722.jpg",
-    "category": ["Romance", "Comedia", "Recuentos de la vida", "Shounen"],
-    "description": "Nasa Yuzaki se casa con Tsukasa, una chica misteriosa que salvó su vida, después de solo conocerla brevemente. Aunque están casados, apenas se conocen, lo que lleva a situaciones adorables y cómicas mientras aprenden a vivir juntos. Esta dulce historia sigue su vida matrimonial llena de momentos románticos y tiernos descubrimientos mutuos."
-  },
-  {
-    "id": "36",
-    "title": "Hataraku Maou-sama!! 2nd Season",
-    "img": "https://cdn.myanimelist.net/images/anime/1392/136670.jpg",
-    "category": ["Comedia", "Fantasía", "Romance", "Recuentos de la vida"],
-    "description": "El Rey Demonio Sadao continúa trabajando en MgRonald's mientras intenta conquistar el mundo moderno... con un salario mínimo. Junto a su nemesis la heroína Emi, enfrentan nuevos desafíos sobrenaturales mientras lidian con la vida cotidiana en Japón. Entre facturas, trabajo y cuidar de una niña, esta peculiar familia improvisada crea situaciones hilarantes."
-  },
-  {
-    "id": "37",
-    "title": "Nanatsu no Maken ga Shihai suru",
-    "img": "https://cdn.myanimelist.net/images/anime/1396/136273.jpg",
-    "category": ["Acción", "Fantasía", "Escolar"],
-    "description": "En la prestigiosa academia de magia Kimberly, Oliver Horn busca un objeto mágico legendario para cumplir una promesa. Junto a sus amigos, navega por peligrosas tradiciones escolares, sociedades secretas y batallas mágicas mortales. En un lugar donde solo los más fuertes sobreviven, Oliver debe usar su ingenio y determinación para alcanzar sus objetivos."
-  },
-  {
-    "id": "38",
-    "title": "Princess Tutu",
-    "img": "https://cdn.myanimelist.net/images/anime/1145/93646.jpg",
-    "category": ["Fantasía", "Drama", "Romance", "Shoujo"],
-    "description": "Ahiru es un pato que recibe el poder de transformarse en una chica y en Princess Tutu, una bailarina mágica. Su misión es restaurar los fragmentos del corazón roto del príncipe Mytho, quien está atrapado en una historia de cuento de hadas. Esta hermosa serie mezcla ballet, cuentos clásicos y un romance complejo en una narrativa emotiva y sofisticada."
-  },
-  {
-    "id": "39",
-    "title": "Horimiya: Piece",
-    "img": "https://cdn.myanimelist.net/images/anime/1007/136277.jpg",
-    "category": ["Romance", "Recuentos de la vida", "Comedia", "Escolar"],
-    "description": "Esta secuela explora más momentos de la vida cotidiana de Hori, Miyamura y sus amigos. A través de episodios que cubren eventos no mostrados anteriormente, vemos cómo sus relaciones se profundizan y nuevas amistades florecen. Desde festivales escolares hasta momentos íntimos, la serie celebra las pequeñas alegrías de la juventud y el amor adolescente."
-  },
-  {
-    "id": "40",
-    "title": "Watashi no Shiawase na Kekkon",
-    "img": "https://cdn.myanimelist.net/images/anime/1147/122444.jpg",
-    "category": ["Romance", "Fantasía", "Drama", "Histórico"],
-    "description": "Miyo Saimori, nacida sin poderes en una familia de hechiceros, es maltratada y obligada a casarse con Kiyoka Kudou, un militar temido por todos. Sin embargo, Kiyoka resulta ser amable y atento. Mientras Miyo encuentra amor y sanación, su pasado oscuro y enemigos poderosos amenazan su frágil felicidad en este emotivo romance histórico con elementos sobrenaturales."
-  },
-  {
-    "id": "41",
-    "title": "Shy",
-    "img": "https://cdn.myanimelist.net/images/anime/1114/136742.jpg",
-    "category": ["Acción", "Superhéroes", "Drama"],
-    "description": "En un mundo donde cada país tiene un héroe representante, Teru Momijiyama es la heroína de Japón conocida como 'Shy'. A pesar de sus poderes, su timidez extrema dificulta su trabajo. Cuando una organización villana amenaza la paz mundial, Shy debe superar sus inseguridades y encontrar el coraje para proteger a quienes ama en esta historia de superhéroes con corazón."
-  },
-  {
-    "id": "42",
-    "title": "Kusuriya no Hitorigoto",
-    "img": "https://cdn.myanimelist.net/images/anime/1708/138033.jpg",
-    "category": ["Misterio", "Histórico", "Drama", "Romance"],
-    "description": "Maomao, una joven boticaria, es secuestrada y vendida al palacio imperial como sirvienta. Con su conocimiento de hierbas y venenos, comienza a resolver misterios médicos en el harén. Su inteligencia llama la atención de Jinshi, un eunuco de alto rango. Juntos desentrañan conspiraciones palaciegas en esta fascinante historia de misterio ambientada en la antigua China."
-  },
-  {
-    "id": "43",
-    "title": "Dr. Stone: Stone Wars",
-    "img": "https://cdn.myanimelist.net/images/anime/1711/110614.jpg",
-    "category": ["Aventura", "Ciencia Ficción", "Shounen", "Comedia"],
-    "description": "La guerra entre el Reino de la Ciencia de Senku y el Imperio de la Fuerza de Tsukasa finalmente estalla. Senku debe usar todo su conocimiento científico para crear armas y estrategias que igualen la fuerza bruta de los guerreros de Tsukasa. En esta batalla por el futuro de la humanidad, la ciencia se enfrenta a la ideología en combates épicos e ingeniosos."
-  },
-  {
-    "id": "45",
-    "title": "Shingeki no Kyojin",
-    "img": "https://cdn.myanimelist.net/images/anime/10/47347.jpg",
-    "category": ["Acción", "Drama", "Fantasía", "Shounen"],
-    "description": "La humanidad vive encerrada tras enormes muros para protegerse de los Titanes, gigantes devoradores de humanos. Cuando un Titán Colosal destruye el muro exterior, Eren Yeager jura exterminar a todos los titanes. Uniéndose a la Legión de Reconocimiento, descubre secretos impactantes sobre los titanes, el mundo y su propio destino en esta épica historia de supervivencia."
-  },
-  {
-    "id": "46",
-    "title": "Love Live! School Idol Project 2nd Season",
-    "img": "https://cdn.myanimelist.net/images/anime/10/59101.jpg",
-    "category": ["Música", "Recuentos de la vida", "Escolar", "Ídolos"],
-    "description": "μ's ha ganado fama como grupo de ídolos escolares, pero nuevos desafíos aparecen. Con el cierre de su escuela aún amenazante y decisiones importantes sobre su futuro, las nueve chicas deben equilibrar sus actividades como ídolos con la vida escolar. Esta temporada explora sus lazos de amistad mientras persiguen sus sueños de llegar a la cima del mundo idol."
-  },
-  {
-    "id": "47",
-    "title": "Ano Hi Mita Hana no Namae wo Bokutachi wa Mada Shiranai",
-    "img": "https://cdn.myanimelist.net/images/anime/5/79697.jpg",
-    "category": ["Drama", "Recuentos de la vida", "Sobrenatural"],
-    "description": "Jinta Yadomi se ha vuelto un recluso desde la muerte de su amiga de la infancia Menma. Años después, el espíritu de Menma aparece ante él pidiendo ayuda para cumplir un deseo olvidado. Para ayudarla, Jinta debe reunir a su antiguo grupo de amigos que se distanciaron tras la tragedia. Esta emotiva historia explora el duelo, la culpa y la sanación de heridas del pasado."
-  },
-  {
-    "id": "48",
-    "title": "Fullmetal Alchemist: Brotherhood",
-    "img": "https://cdn.myanimelist.net/images/anime/1208/94745.jpg",
-    "category": ["Acción", "Aventura", "Fantasía", "Drama"],
-    "description": "Los hermanos Edward y Alphonse Elric intentaron resucitar a su madre usando alquimia, pero el ritual falló catastróficamente. Edward perdió su brazo y pierna, mientras que Alphonse perdió todo su cuerpo, quedando su alma atada a una armadura. Ahora buscan la Piedra Filosofal para restaurar sus cuerpos, descubriendo una conspiración que amenaza a toda la nación en su búsqueda por redención."
-  },
-  {
-    "id": "49",
-    "title": "Ao no Exorcist",
-    "img": "https://cdn.myanimelist.net/images/anime/10/75195.jpg",
-    "category": ["Acción", "Fantasía", "Sobrenatural", "Shounen"],
-    "description": "Rin Okumura descubre que es el hijo de Satanás cuando sus poderes demoniacos despiertan. Después de que su padre adoptivo muere protegiéndolo, Rin decide convertirse en exorcista para derrotar a su padre biológico. Junto a su hermano gemelo Yukio, entra a la Academia True Cross para entrenar, ocultando su verdadera identidad mientras lucha contra demonios y sus propios impulsos oscuros."
-  },
-  {
-    "id": "50",
-    "title": "Kaoru Hana wa Rin to Saku",
-    "img": "https://cdn.myanimelist.net/images/anime/1744/150433.jpg",
-    "category": ["Romance", "Escolar", "Recuentos de la vida"],
-    "description": "Rintaro Tsumugi es un estudiante modelo en una escuela para chicos que protege a Kaoruko Waguri, una chica que se transfirió desde la escuela de chicas vecina. Provenientes de mundos completamente diferentes, su improbable amistad florece en algo más profundo. Esta tierna historia de romance explora cómo dos personas con personalidades opuestas encuentran conexión y comprensión mutua."
-  },
-  {
-    "id": "51",
-    "title": "Kamisama Hajimemashita",
-    "img": "https://cdn.myanimelist.net/images/anime/8/69187.jpg",
-    "category": ["Romance", "Fantasía", "Comedia", "Sobrenatural"],
-    "description": "Nanami Momozono queda sin hogar cuando su padre huye dejando deudas. Un extraño le ofrece su casa, pero resulta ser un santuario donde ella se convierte en la nueva deidad de la tierra. Tomoe, un zorro yokai y familiar del santuario, está furioso por servir a una humana. A pesar de su inicio rocoso, desarrollan una relación compleja llena de romance, comedia y aventuras sobrenaturales."
-  }
+	{
+		"id": "1",
+		"title": "Hori-san to Miyamura-kun",
+		"img": "https://cdn.myanimelist.net/images/anime/1695/111486.jpg",
+		"category": ["Romance", "Recuentos de la vida", "Comedia", "Escolar"],
+		"description": "Kyouko Hori es popular y extrovertida en la escuela, mientras que Izumi Miyamura parece tímido y reservado. Sin embargo, ambos esconden sus verdaderas personalidades. Cuando se encuentran por casualidad fuera de la escuela, descubren sus lados ocultos y desarrollan una inesperada amistad que se convierte en algo más profundo.",
+		"chapters": 13
+	},
+	{
+		"id": "2",
+		"title": "Watashi ga Koibito ni Nareru Wake Nai jan, Muri Muri!",
+		"img": "https://cdn.myanimelist.net/images/anime/1874/152186.jpg",
+		"category": ["Romance", "Comedia", "Escolar"],
+		"description": "Renako Amaori nunca pensó que podría convertirse en la novia de alguien. Sin embargo, su vida da un giro inesperado cuando chicas de su escuela comienzan a confesar sus sentimientos hacia ella. Ahora debe navegar por estas situaciones románticas que nunca imaginó experimentar.",
+		"chapters": 12
+	},
+	{
+		"id": "3",
+		"title": "Spy x Family 2nd Season",
+		"img": "https://cdn.myanimelist.net/images/anime/1506/138982.jpg",
+		"category": ["Acción", "Comedia", "Recuentos de la vida"],
+		"description": "El espía Twilight debe formar una familia falsa para completar su misión. Sin saberlo, adopta a Anya, una niña con poderes telepáticos, y se casa con Yor, una asesina profesional. Esta peculiar familia debe mantener sus secretos mientras enfrentan nuevos desafíos y misiones, creando situaciones hilarantes y conmovedoras.",
+		"chapters": 12
+	},
+	{
+		"id": "4",
+		"title": "Attack on Titan Final Season Part 2",
+		"img": "https://cdn.myanimelist.net/images/anime/1948/120625.jpg",
+		"category": ["Acción", "Drama", "Fantasía", "Militar"],
+		"description": "La guerra entre Marley y las fuerzas de Eldia alcanza su punto crítico. Eren Yeager avanza con su devastador plan mientras sus antiguos amigos deben tomar decisiones imposibles. El conflicto final por el futuro de la humanidad se desarrolla con revelaciones impactantes y batallas épicas que definirán el destino del mundo.",
+		"chapters": 12
+	},
+	{
+		"id": "5",
+		"title": "Kimetsu no Yaiba: Yuukaku-hen",
+		"img": "https://cdn.myanimelist.net/images/anime/1908/120036.jpg",
+		"category": ["Acción", "Fantasía", "Shounen", "Sobrenatural"],
+		"description": "Tanjiro y sus amigos se infiltran en el Distrito Rojo de entretenimiento para investigar la desaparición de varias personas. Junto al Pilar del Sonido, Tengen Uzui, se enfrentarán a demonios de las Lunas Superiores en batallas intensas que pondrán a prueba sus habilidades y determinación como cazadores de demonios.",
+		"chapters": 11
+	},
+	{
+		"id": "6",
+		"title": "My Hero Academia Season 6",
+		"img": "https://cdn.myanimelist.net/images/anime/1483/126005.jpg",
+		"category": ["Acción", "Shounen", "Superhéroes", "Escolar"],
+		"description": "La guerra entre héroes y villanos estalla en su forma más devastadora. Los estudiantes de U.A. se unen a los héroes profesionales para detener el Frente de Liberación Paranormal. Deku y sus compañeros enfrentarán sus batallas más peligrosas mientras la sociedad de héroes tambalea al borde del colapso.",
+		"chapters": 25
+	},
+	{
+		"id": "7",
+		"title": "Blue Lock",
+		"img": "https://cdn.myanimelist.net/images/anime/1258/126929.jpg",
+		"category": ["Deportes", "Shounen", "Drama"],
+		"description": "Después de que Japón no logre clasificar al Mundial, se crea el Proyecto Blue Lock, un programa extremo para encontrar al delantero más egoísta del país. Yoichi Isagi y otros 299 jugadores compiten en desafíos intensos donde solo el más despiadado podrá convertirse en el mejor delantero de Japón.",
+		"chapters": 24
+	},
+	{
+		"id": "8",
+		"title": "Vinland Saga Season 2",
+		"img": "https://cdn.myanimelist.net/images/anime/1170/124312.jpg",
+		"category": ["Acción", "Drama", "Histórico", "Seinen"],
+		"description": "Thorfinn ha perdido su sed de venganza pero también su propósito en la vida. Ahora esclavizado en una granja, debe encontrar una nueva razón para vivir. Esta temporada explora temas de redención, pacifismo y la búsqueda de la tierra prometida de Vinland, mientras Thorfinn intenta convertirse en un verdadero guerrero sin derramar sangre.",
+		"chapters": 24
+	},
+	{
+		"id": "9",
+		"title": "Tokyo Revengers: Tenjiku Arc",
+		"img": "https://cdn.myanimelist.net/images/anime/1853/139843.jpg",
+		"category": ["Acción", "Drama", "Sobrenatural", "Shounen"],
+		"description": "Takemichi enfrenta su mayor desafío cuando la banda Tenjiku amenaza con destruir a Toman. Con nuevos enemigos más peligrosos que nunca, debe viajar en el tiempo una vez más para evitar tragedias futuras. La batalla definitiva por el futuro de sus amigos y el destino de las pandillas de Tokyo está por comenzar.",
+		"chapters": 13
+	},
+	{
+		"id": "12",
+		"title": "Mob Psycho 100 III",
+		"img": "https://cdn.myanimelist.net/images/anime/1228/125011.jpg",
+		"category": ["Acción", "Comedia", "Sobrenatural", "Recuentos de la vida"],
+		"description": "Shigeo Kageyama continúa su vida cotidiana mientras intenta mejorar como persona. Sin embargo, nuevas amenazas sobrenaturales emergen y sus emociones reprimidas amenazan con descontrolarse. En la temporada final, Mob debe enfrentar sus mayores miedos y tomar decisiones cruciales sobre quién quiere ser realmente.",
+		"chapters": 12
+	},
+	{
+		"id": "13",
+		"title": "Made in Abyss: The Golden City of the Scorching Sun",
+		"img": "https://cdn.myanimelist.net/images/anime/1864/122519.jpg",
+		"category": ["Aventura", "Fantasía", "Misterio", "Drama"],
+		"description": "Riko, Reg y Nanachi llegan a la sexta capa del Abismo y descubren la misteriosa Ciudad Dorada. Allí se encuentran con Faputa, una criatura con un oscuro pasado conectado al origen de la ciudad. Los secretos del Abismo se revelan mientras los aventureros enfrentan decisiones morales desgarradoras en este peligroso viaje.",
+		"chapters": 12
+	},
+	{
+		"id": "14",
+		"title": "The Rising of the Shield Hero Season 2",
+		"img": "https://cdn.myanimelist.net/images/anime/1143/121873.jpg",
+		"category": ["Aventura", "Fantasía", "Isekai", "Drama"],
+		"description": "Naofumi y su grupo enfrentan las Olas de Calamidad en un mundo diferente al que conocían. Nuevos enemigos llamados los Héroes del Vasallo aparecen, y el Héroe del Escudo debe proteger múltiples dimensiones. Mientras tanto, surgen secretos sobre el verdadero origen de las Olas y el papel de los Héroes Legendarios.",
+		"chapters": 13
+	},
+	{
+		"id": "15",
+		"title": "Kaguya-sama: Love is War - Ultra Romantic",
+		"img": "https://cdn.myanimelist.net/images/anime/1160/122627.jpg",
+		"category": ["Romance", "Comedia", "Escolar", "Seinen"],
+		"description": "La batalla mental entre Kaguya y Miyuki para hacer que el otro confiese su amor alcanza nuevas alturas. Con el festival cultural como telón de fondo, sus sentimientos se vuelven más difíciles de ocultar. Los juegos psicológicos dan paso a momentos genuinamente románticos en esta temporada que cambia las reglas del juego.",
+		"chapters": 13
+	},
+	{
+		"id": "16",
+		"title": "Shokei Shoujo no Virgin Road",
+		"img": "https://cdn.myanimelist.net/images/anime/1423/122029.jpg",
+		"category": ["Fantasía", "Isekai", "Drama", "Aventura"],
+		"description": "Menou es una ejecutora cuya misión es eliminar a los Otherworlders, personas de otro mundo que traen destrucción. Cuando conoce a Akari, una chica de Japón que no puede ser asesinada, su mundo se complica. Juntas emprenden un viaje donde los conceptos de justicia, deber y amistad se ponen a prueba.",
+		"chapters": 12
+	},
+	{
+		"id": "17",
+		"title": "Summertime Rendering",
+		"img": "https://cdn.myanimelist.net/images/manga/3/261167.jpg",
+		"category": ["Misterio", "Thriller", "Sobrenatural", "Ciencia Ficción"],
+		"description": "Shinpei regresa a su isla natal para el funeral de su amiga de la infancia, pero descubre que su muerte esconde un misterio sobrenatural. Atrapado en un bucle temporal, debe descubrir la verdad sobre las 'Sombras' que amenazan a los habitantes de la isla antes de que sea demasiado tarde para salvar a todos.",
+		"chapters": 25
+	},
+	{
+		"id": "19",
+		"title": "Ookami Kodomo no Ame to Yuki",
+		"img": "https://cdn.myanimelist.net/images/anime/9/35721.jpg",
+		"category": ["Fantasía", "Recuentos de la vida", "Drama"],
+		"description": "Hana se enamora de un hombre lobo y juntos tienen dos hijos, Ame y Yuki, que pueden transformarse en lobos. Tras quedarse viuda, Hana se muda al campo para criar a sus hijos en secreto. Esta emotiva historia sigue su lucha por criar niños mitad humanos mitad lobos mientras ellos buscan su propia identidad.",
+		"chapters": 1
+	},
+	{
+		"id": "20",
+		"title": "Fruits Basket: Prelude",
+		"img": "https://cdn.myanimelist.net/images/anime/1034/120096.jpg",
+		"category": ["Romance", "Drama", "Sobrenatural", "Shoujo"],
+		"description": "Esta película precuela narra la historia de amor entre Katsuya y Kyoko, los padres de Tohru Honda. Revela cómo se conocieron, su relación contra todo pronóstico y los eventos que moldearon a Kyoko en la persona que Tohru tanto admiraba. Una historia conmovedora sobre el amor, la pérdida y el legado familiar.",
+		"chapters": 1
+	},
+	{
+		"id": "21",
+		"title": "Beastars Season 2",
+		"img": "https://cdn.myanimelist.net/images/anime/1097/109646.jpg",
+		"category": ["Drama", "Psicológico", "Romance", "Recuentos de la vida"],
+		"description": "Legoshi continúa su búsqueda del asesino de Tem mientras lidia con sus complejos sentimientos hacia Haru. El mundo de los animales antropomorfos revela más tensiones entre herbívoros y carnívoros. Legoshi debe confrontar su naturaleza de lobo y decidir qué tipo de bestia quiere ser en una sociedad llena de prejuicios.",
+		"chapters": 12
+	},
+	{
+		"id": "22",
+		"title": "Oshi no Ko",
+		"img": "https://cdn.myanimelist.net/images/anime/1812/134736.jpg",
+		"category": ["Drama", "Misterio", "Sobrenatural", "Seinen"],
+		"description": "Un ginecólogo y su paciente fan son reencarnados como los hijos gemelos de su ídolo, Ai Hoshino. Tras una tragedia devastadora, los gemelos Aqua y Ruby se adentran en el mundo del entretenimiento, cada uno con sus propios objetivos. Aqua busca venganza mientras Ruby persigue sus sueños de ser ídolo en esta oscura historia sobre la industria del espectáculo.",
+		"chapters": 11
+	},
+	{
+		"id": "23",
+		"title": "Buddy Daddies",
+		"img": "https://cdn.myanimelist.net/images/anime/1553/133767.jpg",
+		"category": ["Acción", "Comedia", "Recuentos de la vida"],
+		"description": "Kazuki y Rei son asesinos profesionales cuyas vidas dan un giro inesperado cuando una niña llamada Miri aparece buscando a su padre. Descubriendo que uno de ellos podría serlo, deciden cuidarla juntos. Esta peculiar familia improvisada equilibra misiones de asesinato con las responsabilidades de criar a una niña enérgica de preescolar.",
+		"chapters": 13
+	},
+	{
+		"id": "24",
+		"title": "Insomniacs After School",
+		"img": "https://cdn.myanimelist.net/images/manga/2/221335.jpg",
+		"category": ["Romance", "Recuentos de la vida", "Escolar"],
+		"description": "Ganta Nakami e Isaki Magari sufren de insomnio crónico. Cuando descubren que ambos pueden dormir en el abandonado observatorio de la escuela, forman una conexión especial. Juntos reviven el club de astronomía y encuentran consuelo en su compañía nocturna, desarrollando una dulce historia de romance bajo las estrellas.",
+		"chapters": 13
+	},
+	{
+		"id": "25",
+		"title": "Birdie Wing: Golf Girls' Story Season 2",
+		"img": "https://cdn.myanimelist.net/images/anime/1407/135263.jpg",
+		"category": ["Deportes", "Drama"],
+		"description": "Eve regresa a Japón para enfrentar su pasado y reunirse con Aoi. Las dos golfistas prodigio deben superar obstáculos personales y rivalidades intensas mientras compiten en torneos de alto nivel. Con apuestas cada vez más altas y secretos del pasado de Eve revelándose, ambas lucharán por sus sueños en el campo de golf.",
+		"chapters": 13
+	},
+	{
+		"id": "26",
+		"title": "Dekiru Neko wa Kyou mo Yuuutsu",
+		"img": "https://cdn.myanimelist.net/images/anime/1074/136720.jpg",
+		"category": ["Comedia", "Recuentos de la vida"],
+		"description": "Saku es un gato extraordinario que puede hacer las tareas del hogar mejor que cualquier humano. Vive con Yukichi, su dueño humano algo inútil. Mientras Saku cocina, limpia y se preocupa por el bienestar de Yukichi, se pregunta con melancolía si su dueño alguna vez aprenderá a cuidarse solo en esta adorable comedia cotidiana.",
+		"chapters": 13
+	},
+	{
+		"id": "27",
+		"title": "Spy Kyoushitsu 2nd Season",
+		"img": "https://cdn.myanimelist.net/images/anime/1317/136666.jpg",
+		"category": ["Acción", "Misterio", "Fantasía"],
+		"description": "Klaus y sus chicas espías del equipo Lamplight enfrentan nuevas misiones imposibles. Cada miembro tiene un pasado oscuro y habilidades únicas, pero su tasa de mortalidad es la más alta. Deben usar su ingenio y trabajo en equipo para completar operaciones de espionaje suicidas mientras descubren más sobre los secretos de su misterioso instructor.",
+		"chapters": 12
+	},
+	{
+		"id": "28",
+		"title": "Shiguang Dailiren II",
+		"img": "https://cdn.myanimelist.net/images/anime/1897/137108.jpg",
+		"category": ["Misterio", "Drama", "Sobrenatural", "Ciencia Ficción"],
+		"description": "Cheng Xiaoshi y Lu Guang continúan usando sus poderes para sumergirse en fotografías y alterar el pasado. Nuevos casos los llevan a desentrañar misterios más complejos y peligrosos. Mientras ayudan a sus clientes a resolver tragedias del pasado, deben lidiar con las consecuencias de cambiar el tiempo y secretos oscuros que conectan sus misiones.",
+		"chapters": 12
+	},
+	{
+		"id": "29",
+		"title": "Zom 100: Zombie ni Naru made ni Shitai 100 no Koto",
+		"img": "https://cdn.myanimelist.net/images/anime/1384/136408.jpg",
+		"category": ["Comedia", "Horror", "Acción", "Sobrenatural"],
+		"description": "Akira Tendou estaba atrapado en un trabajo corporativo miserable hasta que un apocalipsis zombie libera su espíritu. En lugar de huir con terror, crea una lista de 100 cosas que quiere hacer antes de convertirse en zombie. Con sus amigos, emprende aventuras absurdas y emocionantes en un mundo post-apocalíptico, redescubriendo la alegría de vivir.",
+		"chapters": 12
+	},
+	{
+		"id": "30",
+		"title": "Mushoku Tensei II: Isekai Ittara Honki Dasu Part 2",
+		"img": "https://cdn.myanimelist.net/images/anime/1876/141251.jpg",
+		"category": ["Fantasía", "Isekai", "Drama", "Aventura"],
+		"description": "Rudeus continúa su viaje en el mundo mágico mientras enfrenta traumas de su pasado y desafíos del presente. Después de la crisis de desplazamiento mágico, debe reunirse con su familia dispersa. Entre batallas épicas, crecimiento mágico y relaciones complejas, Rudeus aprende que la redención y la madurez requieren más que poder mágico.",
+		"chapters": 12
+	},
+	{
+		"id": "31",
+		"title": "Jujutsu Kaisen Season 2",
+		"img": "https://cdn.myanimelist.net/images/anime/1792/138022.jpg",
+		"category": ["Acción", "Fantasía", "Shounen", "Sobrenatural"],
+		"description": "Esta temporada revela el pasado de Gojo Satoru y su amistad con Geto Suguru durante sus días en la escuela técnica. Después, la historia salta al presente con el Incidente de Shibuya, donde hechiceros y maldiciones se enfrentan en una batalla devastadora. Traiciones, sacrificios y poderes sobrenaturales chocan en el arco más oscuro de la serie.",
+		"chapters": 23
+	},
+	{
+		"id": "32",
+		"title": "Suki na Ko ga Megane wo Wasureta",
+		"img": "https://cdn.myanimelist.net/images/anime/1582/136325.jpg",
+		"category": ["Romance", "Comedia", "Escolar", "Recuentos de la vida"],
+		"description": "Komura está secretamente enamorado de su compañera de clase Mie, quien constantemente olvida sus anteojos. Cuando ella no puede ver bien, se acerca mucho a él, haciendo que su corazón se acelere. Esta adorable comedia romántica sigue sus interacciones cotidianas llenas de momentos dulces y embarazosos mientras Komura intenta controlar sus sentimientos.",
+		"chapters": 13
+	},
+	{
+		"id": "33",
+		"title": "Uchi no Kaisha no Chiisai Senpai no Hanashi",
+		"img": "https://cdn.myanimelist.net/images/anime/1984/136274.jpg",
+		"category": ["Romance", "Recuentos de la vida", "Comedia"],
+		"description": "Shinozaki es un empleado de oficina torpe que conoce a Shiori Katase, su pequeña pero confiable senpai. A pesar de su baja estatura, ella es extremadamente competente y amable, siempre ayudándolo a adaptarse al trabajo. Lo que comienza como una relación mentor-aprendiz gradualmente se transforma en algo más dulce en esta encantadora comedia romántica de oficina.",
+		"chapters": 12
+	},
+	{
+		"id": "34",
+		"title": "Sugar Apple Fairy Tale Part 2",
+		"img": "https://cdn.myanimelist.net/images/anime/1693/138042.jpg",
+		"category": ["Fantasía", "Romance", "Aventura"],
+		"description": "Anne Halford continúa su viaje para convertirse en una Maestra Artesana de Dulces de Plata. Su relación con Challe, un hada guerrera, se profundiza mientras enfrentan nuevos desafíos en un mundo donde las hadas son tratadas como esclavos. Anne debe superar prejuicios sociales y competencia feroz mientras lucha por sus sueños y por cambiar el mundo.",
+		"chapters": 12
+	},
+	{
+		"id": "35",
+		"title": "Tonikaku Kawaii",
+		"img": "https://cdn.myanimelist.net/images/anime/1613/108722.jpg",
+		"category": ["Romance", "Comedia", "Recuentos de la vida", "Shounen"],
+		"description": "Nasa Yuzaki se casa con Tsukasa, una chica misteriosa que salvó su vida, después de solo conocerla brevemente. Aunque están casados, apenas se conocen, lo que lleva a situaciones adorables y cómicas mientras aprenden a vivir juntos. Esta dulce historia sigue su vida matrimonial llena de momentos románticos y tiernos descubrimientos mutuos.",
+		"chapters": 12
+	},
+	{
+		"id": "36",
+		"title": "Hataraku Maou-sama!! 2nd Season",
+		"img": "https://cdn.myanimelist.net/images/anime/1392/136670.jpg",
+		"category": ["Comedia", "Fantasía", "Romance", "Recuentos de la vida"],
+		"description": "El Rey Demonio Sadao continúa trabajando en MgRonald's mientras intenta conquistar el mundo moderno... con un salario mínimo. Junto a su nemesis la heroína Emi, enfrentan nuevos desafíos sobrenaturales mientras lidian con la vida cotidiana en Japón. Entre facturas, trabajo y cuidar de una niña, esta peculiar familia improvisada crea situaciones hilarantes.",
+		"chapters": 13
+	},
+	{
+		"id": "37",
+		"title": "Nanatsu no Maken ga Shihai suru",
+		"img": "https://cdn.myanimelist.net/images/anime/1396/136273.jpg",
+		"category": ["Acción", "Fantasía", "Escolar"],
+		"description": "En la prestigiosa academia de magia Kimberly, Oliver Horn busca un objeto mágico legendario para cumplir una promesa. Junto a sus amigos, navega por peligrosas tradiciones escolares, sociedades secretas y batallas mágicas mortales. En un lugar donde solo los más fuertes sobreviven, Oliver debe usar su ingenio y determinación para alcanzar sus objetivos.",
+		"chapters": 15
+	},
+	{
+		"id": "38",
+		"title": "Princess Tutu",
+		"img": "https://cdn.myanimelist.net/images/anime/1145/93646.jpg",
+		"category": ["Fantasía", "Drama", "Romance", "Shoujo"],
+		"description": "Ahiru es un pato que recibe el poder de transformarse en una chica y en Princess Tutu, una bailarina mágica. Su misión es restaurar los fragmentos del corazón roto del príncipe Mytho, quien está atrapado en una historia de cuento de hadas. Esta hermosa serie mezcla ballet, cuentos clásicos y un romance complejo en una narrativa emotiva y sofisticada.",
+		"chapters": 38
+	},
+	{
+		"id": "39",
+		"title": "Horimiya: Piece",
+		"img": "https://cdn.myanimelist.net/images/anime/1007/136277.jpg",
+		"category": ["Romance", "Recuentos de la vida", "Comedia", "Escolar"],
+		"description": "Esta secuela explora más momentos de la vida cotidiana de Hori, Miyamura y sus amigos. A través de episodios que cubren eventos no mostrados anteriormente, vemos cómo sus relaciones se profundizan y nuevas amistades florecen. Desde festivales escolares hasta momentos íntimos, la serie celebra las pequeñas alegrías de la juventud y el amor adolescente.",
+		"chapters": 13
+	},
+	{
+		"id": "40",
+		"title": "Watashi no Shiawase na Kekkon",
+		"img": "https://cdn.myanimelist.net/images/anime/1147/122444.jpg",
+		"category": ["Romance", "Fantasía", "Drama", "Histórico"],
+		"description": "Miyo Saimori, nacida sin poderes en una familia de hechiceros, es maltratada y obligada a casarse con Kiyoka Kudou, un militar temido por todos. Sin embargo, Kiyoka resulta ser amable y atento. Mientras Miyo encuentra amor y sanación, su pasado oscuro y enemigos poderosos amenazan su frágil felicidad en este emotivo romance histórico con elementos sobrenaturales.",
+		"chapters": 12
+	},
+	{
+		"id": "41",
+		"title": "Shy",
+		"img": "https://cdn.myanimelist.net/images/anime/1114/136742.jpg",
+		"category": ["Acción", "Superhéroes", "Drama"],
+		"description": "En un mundo donde cada país tiene un héroe representante, Teru Momijiyama es la heroína de Japón conocida como 'Shy'. A pesar de sus poderes, su timidez extrema dificulta su trabajo. Cuando una organización villana amenaza la paz mundial, Shy debe superar sus inseguridades y encontrar el coraje para proteger a quienes ama en esta historia de superhéroes con corazón.",
+		"chapters": 12
+	},
+	{
+		"id": "42",
+		"title": "Kusuriya no Hitorigoto",
+		"img": "https://cdn.myanimelist.net/images/anime/1708/138033.jpg",
+		"category": ["Misterio", "Histórico", "Drama", "Romance"],
+		"description": "Maomao, una joven boticaria, es secuestrada y vendida al palacio imperial como sirvienta. Con su conocimiento de hierbas y venenos, comienza a resolver misterios médicos en el harén. Su inteligencia llama la atención de Jinshi, un eunuco de alto rango. Juntos desentrañan conspiraciones palaciegas en esta fascinante historia de misterio ambientada en la antigua China.",
+		"chapters": 24
+	},
+	{
+		"id": "43",
+		"title": "Dr. Stone: Stone Wars",
+		"img": "https://cdn.myanimelist.net/images/anime/1711/110614.jpg",
+		"category": ["Aventura", "Ciencia Ficción", "Shounen", "Comedia"],
+		"description": "La guerra entre el Reino de la Ciencia de Senku y el Imperio de la Fuerza de Tsukasa finalmente estalla. Senku debe usar todo su conocimiento científico para crear armas y estrategias que igualen la fuerza bruta de los guerreros de Tsukasa. En esta batalla por el futuro de la humanidad, la ciencia se enfrenta a la ideología en combates épicos e ingeniosos.",
+		"chapters": 11
+	},
+	{
+		"id": "45",
+		"title": "Shingeki no Kyojin",
+		"img": "https://cdn.myanimelist.net/images/anime/10/47347.jpg",
+		"category": ["Acción", "Drama", "Fantasía", "Shounen"],
+		"description": "La humanidad vive encerrada tras enormes muros para protegerse de los Titanes, gigantes devoradores de humanos. Cuando un Titán Colosal destruye el muro exterior, Eren Yeager jura exterminar a todos los titanes. Uniéndose a la Legión de Reconocimiento, descubre secretos impactantes sobre los titanes, el mundo y su propio destino en esta épica historia de supervivencia.",
+		"chapters": 25
+	},
+	{
+		"id": "46",
+		"title": "Love Live! School Idol Project 2nd Season",
+		"img": "https://cdn.myanimelist.net/images/anime/10/59101.jpg",
+		"category": ["Música", "Recuentos de la vida", "Escolar", "Ídolos"],
+		"description": "μ's ha ganado fama como grupo de ídolos escolares, pero nuevos desafíos aparecen. Con el cierre de su escuela aún amenazante y decisiones importantes sobre su futuro, las nueve chicas deben equilibrar sus actividades como ídolos con la vida escolar. Esta temporada explora sus lazos de amistad mientras persiguen sus sueños de llegar a la cima del mundo idol.",
+		"chapters": 13
+	},
+	{
+		"id": "47",
+		"title": "Ano Hi Mita Hana no Namae wo Bokutachi wa Mada Shiranai",
+		"img": "https://cdn.myanimelist.net/images/anime/5/79697.jpg",
+		"category": ["Drama", "Recuentos de la vida", "Sobrenatural"],
+		"description": "Jinta Yadomi se ha vuelto un recluso desde la muerte de su amiga de la infancia Menma. Años después, el espíritu de Menma aparece ante él pidiendo ayuda para cumplir un deseo olvidado. Para ayudarla, Jinta debe reunir a su antiguo grupo de amigos que se distanciaron tras la tragedia. Esta emotiva historia explora el duelo, la culpa y la sanación de heridas del pasado.",
+		"chapters": 11
+	},
+	{
+		"id": "48",
+		"title": "Fullmetal Alchemist: Brotherhood",
+		"img": "https://cdn.myanimelist.net/images/anime/1208/94745.jpg",
+		"category": ["Acción", "Aventura", "Fantasía", "Drama"],
+		"description": "Los hermanos Edward y Alphonse Elric intentaron resucitar a su madre usando alquimia, pero el ritual falló catastróficamente. Edward perdió su brazo y pierna, mientras que Alphonse perdió todo su cuerpo, quedando su alma atada a una armadura. Ahora buscan la Piedra Filosofal para restaurar sus cuerpos, descubriendo una conspiración que amenaza a toda la nación en su búsqueda por redención.",
+		"chapters": 64
+	},
+	{
+		"id": "49",
+		"title": "Ao no Exorcist",
+		"img": "https://cdn.myanimelist.net/images/anime/10/75195.jpg",
+		"category": ["Acción", "Fantasía", "Sobrenatural", "Shounen"],
+		"description": "Rin Okumura descubre que es el hijo de Satanás cuando sus poderes demoniacos despiertan. Después de que su padre adoptivo muere protegiéndolo, Rin decide convertirse en exorcista para derrotar a su padre biológico. Junto a su hermano gemelo Yukio, entra a la Academia True Cross para entrenar, ocultando su verdadera identidad mientras lucha contra demonios y sus propios impulsos oscuros.",
+		"chapters": 25
+	},
+	{
+		"id": "50",
+		"title": "Kaoru Hana wa Rin to Saku",
+		"img": "https://cdn.myanimelist.net/images/anime/1744/150433.jpg",
+		"category": ["Romance", "Escolar", "Recuentos de la vida"],
+		"description": "Rintaro Tsumugi es un estudiante modelo en una escuela para chicos que protege a Kaoruko Waguri, una chica que se transfirió desde la escuela de chicas vecina. Provenientes de mundos completamente diferentes, su improbable amistad florece en algo más profundo. Esta tierna historia de romance explora cómo dos personas con personalidades opuestas encuentran conexión y comprensión mutua.",
+		"chapters": 12
+	},
+	{
+		"id": "51",
+		"title": "Kamisama Hajimemashita",
+		"img": "https://cdn.myanimelist.net/images/anime/8/69187.jpg",
+		"category": ["Romance", "Fantasía", "Comedia", "Sobrenatural"],
+		"description": "Nanami Momozono queda sin hogar cuando su padre huye dejando deudas. Un extraño le ofrece su casa, pero resulta ser un santuario donde ella se convierte en la nueva deidad de la tierra. Tomoe, un zorro yokai y familiar del santuario, está furioso por servir a una humana. A pesar de su inicio rocoso, desarrollan una relación compleja llena de romance, comedia y aventuras sobrenaturales.",
+		"chapters": 13
+	}
 ]
