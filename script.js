@@ -4,12 +4,6 @@ const getAllAnimes = async () => {
 	return animes;
 };
 
-const getAnimesByCategory = async ({ category }) => {
-	const response = await fetch(`./animes${category}.json`);
-	const animes = response.json();
-	return animes;
-};
-
 function createSection({ animes, limit = 16 }) {
 	const sectionAnimeContainer = document.createElement("section");
 	sectionAnimeContainer.classList.add("section-anime");
@@ -38,20 +32,36 @@ function createSection({ animes, limit = 16 }) {
 }
 
 const template = document.querySelector(".anime_container");
-const emsionAnimes = await getAllAnimes();
-const sectionEmision = createSection({
-	animes: emsionAnimes,
-});
-
-template.appendChild(sectionEmision);
 
 const stateViewsButton = document.querySelector(".state-views_button");
 
-stateViewsButton.addEventListener("click", (e) => {
+stateViewsButton.addEventListener("click", async (e) => {
 	const stateButton = e.target;
 	if (stateButton.tagName === "BUTTON") {
 		const actualActive = stateViewsButton.querySelector(".active");
 		actualActive.classList.remove("active");
 		stateButton.classList.add("active");
+		const stateName = stateButton.dataset.state;
+		renderStateSection({ stateName });
 	}
 });
+
+async function renderStateSection({ stateName }) {
+	const animesByState = JSON.parse(
+		window.localStorage.getItem(stateName) || "[]",
+	);
+	const allAnimes = await getAllAnimes();
+	const animesSelected = allAnimes.filter((anime) => {
+		return animesByState.includes(Number(anime.id));
+	});
+	const sectionEmision = createSection({
+		animes: animesSelected,
+	});
+
+	template.innerHTML = "";
+	template.appendChild(sectionEmision);
+}
+window.localStorage.setItem("pending", JSON.stringify([1, 5, 8]));
+window.localStorage.setItem("watching", JSON.stringify([2, 3, 4]));
+window.localStorage.setItem("completed", JSON.stringify([6, 7, 9, 15, 12]));
+renderStateSection({ stateName: "pending" });
