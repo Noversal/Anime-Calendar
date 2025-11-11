@@ -46,15 +46,29 @@ animeByID({ id: animeId }).then((anime) => {
 	containerDescription.innerHTML = animeDescription;
 
 	const animeActions = document.querySelector(".anime-actions");
+	const animeExist = JSON.parse(window.localStorage.getItem("list") || "[]");
 
-	animeActions.innerHTML = addAnimeMyList();
+	if (animeExist.includes(animeId)) {
+		animeActions.innerHTML = addProgresAnime({
+			id: anime.id,
+			chapters: anime.chapters,
+		});
+	} else {
+		animeActions.innerHTML = addAnimeMyList();
+	}
 
 	const animeAddButton = document.querySelector(".add-to-list-btn");
 
 	animeAddButton?.addEventListener("click", () => {
 		const content = addProgresAnime({ id: anime.id, chapters: anime.chapters });
 		animeActions.innerHTML = content;
-		window.localStorage.setItem(JSON.stringify[id]);
+		const actualList = JSON.parse(window.localStorage.getItem("list") || "[]");
+		if (!actualList.includes(anime.id)) {
+			window.localStorage.setItem(
+				"list",
+				JSON.stringify([...actualList, anime.id]),
+			);
+		}
 	});
 });
 
