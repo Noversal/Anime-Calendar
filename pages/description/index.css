@@ -153,6 +153,29 @@ body {
     transition: width 0.3s ease;
 }
 
+.not-in-list {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.add-to-list-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 12px 16px;
+    background: linear-gradient(90deg, #d946ef 0%, #c026d3 100%);
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
 @media screen and (max-width: 768px) {
     .container-description {
         flex-direction: column;
