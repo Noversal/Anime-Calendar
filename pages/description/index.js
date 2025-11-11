@@ -40,26 +40,25 @@ animeByID({ id: animeId }).then((anime) => {
                             </div>
                         </div>
                         <div class="anime-actions">
-                            <div class="progress-container">
-                                <label for="progress-${anime.id}" class="progress-label">Progreso</label>
-                                <div class="progress-input-wrapper">
-                                    <input 
-                                        type="number" 
-                                        id="progress-${anime.id}"
-                                        class="progress-input" 
-                                        min="0"
-                                        max="${anime.chapters}"
-                                        value="0"
-                                        aria-label="Capítulos vistos"
-                                    />
-                                    <span class="progress-total"> / ${anime.chapters}</span>
-                                </div>
-                            </div>
-                            <div class="progress-bar">
-                                <div class="progress-fill" style="width: 100%"></div>
+                           <div class="not-in-list">
+                                <p class="not-in-list-message">Este anime no está en tu lista</p>
+                                <button class="add-to-list-btn" aria-label="Agregar anime a mi lista">
+                                    <svg 
+                                        class="add-icon"
+                                        xmlns="http://www.w3.org/2000/svg" 
+                                        width="16" 
+                                        height="16" 
+                                        viewBox="0 0 16 16" 
+                                        fill="none"
+                                        aria-hidden="true"
+                                    >
+                                        <path d="M3.3335 8H12.6668" stroke="currentcolor" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M8 3.3335V12.6668" stroke="currentcolor" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    <span class="btn-text">Agregar a mi lista</span>
+                                </button>
                             </div>
                         </div>
-                    </div>
                 </article> 
             </section>`;
 
