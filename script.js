@@ -47,12 +47,10 @@ stateViewsButton.addEventListener("click", async (e) => {
 });
 
 async function renderStateSection({ stateName }) {
-	const animesByState = JSON.parse(
-		window.localStorage.getItem(stateName) || "[]",
-	);
+	const animesByState = JSON.parse(window.localStorage.getItem("list") || "[]");
 	const allAnimes = await getAllAnimes();
 	const animesSelected = allAnimes.filter((anime) => {
-		return animesByState.includes(Number(anime.id));
+		return animesByState.includes(anime.id);
 	});
 	const sectionEmision = createSection({
 		animes: animesSelected,
@@ -61,7 +59,5 @@ async function renderStateSection({ stateName }) {
 	template.innerHTML = "";
 	template.appendChild(sectionEmision);
 }
-window.localStorage.setItem("pending", JSON.stringify([1, 5, 8]));
-window.localStorage.setItem("watching", JSON.stringify([2, 3, 4]));
-window.localStorage.setItem("completed", JSON.stringify([6, 7, 9, 15, 12]));
+
 renderStateSection({ stateName: "pending" });
