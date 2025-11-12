@@ -41,16 +41,23 @@ stateViewsButton.addEventListener("click", async (e) => {
 		const actualActive = stateViewsButton.querySelector(".active");
 		actualActive.classList.remove("active");
 		stateButton.classList.add("active");
-		const stateName = stateButton.dataset.state;
-		renderStateSection({ stateName });
+		const stateID = stateButton.dataset.state;
+		renderStateSection({ stateID });
 	}
 });
 
-async function renderStateSection({ stateName }) {
+async function renderStateSection({ stateID }) {
 	const animesByState = JSON.parse(window.localStorage.getItem("list") || "[]");
+	const animeSelected = animesByState.map((anime) => {
+		if (anime.stateID === stateID) {
+			return anime.id;
+		}
+		return null;
+	});
+
 	const allAnimes = await getAllAnimes();
 	const animesSelected = allAnimes.filter((anime) => {
-		return animesByState.includes(anime.id);
+		return animeSelected.includes(anime.id);
 	});
 	const sectionEmision = createSection({
 		animes: animesSelected,
@@ -60,4 +67,4 @@ async function renderStateSection({ stateName }) {
 	template.appendChild(sectionEmision);
 }
 
-renderStateSection({ stateName: "pending" });
+renderStateSection({ stateID: "2" });
