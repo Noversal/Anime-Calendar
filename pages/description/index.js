@@ -66,7 +66,7 @@ animeByID({ id: animeId }).then((anime) => {
 		if (!actualList.includes(anime.id)) {
 			window.localStorage.setItem(
 				"list",
-				JSON.stringify([...actualList, anime.id]),
+				JSON.stringify([...actualList, { id: anime.id, stateID: 2, count: 0 }]),
 			);
 		}
 	});
