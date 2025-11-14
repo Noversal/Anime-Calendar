@@ -46,9 +46,10 @@ animeByID({ id: animeId }).then((anime) => {
 	containerDescription.innerHTML = animeDescription;
 
 	const animeActions = document.querySelector(".anime-actions");
-	const animeExist = JSON.parse(window.localStorage.getItem("list") || "[]");
+	const animeList = JSON.parse(window.localStorage.getItem("list") || "[]");
+	const animeExist = animeList.some((item) => item.id === animeId);
 
-	if (animeExist.includes(animeId)) {
+	if (animeExist) {
 		animeActions.innerHTML = addProgresAnime({
 			id: anime.id,
 			chapters: anime.chapters,
@@ -69,6 +70,22 @@ animeByID({ id: animeId }).then((anime) => {
 				JSON.stringify([...actualList, { id: anime.id, stateID: 2, count: 0 }]),
 			);
 		}
+	});
+
+	const inputCount = document.getElementById(`progress-${animeId}`);
+
+	inputCount?.addEventListener("change", () => {
+		if (inputCount.value > anime.chapters) {
+			inputCount.value = anime.chapters;
+		}
+
+		if (inputCount.value < 0) {
+			inputCount.value = 0;
+		}
+
+		const porcentAnime = Math.round((inputCount.value / anime.chapters) * 100);
+		const progress = document.querySelector(".progress-fill");
+		progress.style.width = `${porcentAnime}%`;
 	});
 });
 
@@ -112,7 +129,7 @@ function addProgresAnime({ id, chapters }) {
                     </div>
                 </div>
                 <div class="progress-bar">
-                    <div class="progress-fill" style="width: 100%"></div>
+                    <div class="progress-fill" style="width: 0%"></div>
                 </div>
             </div>    
         `;
