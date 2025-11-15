@@ -74,7 +74,15 @@ animeByID({ id: animeId }).then((anime) => {
 
 	const inputCount = document.getElementById(`progress-${animeId}`);
 
+	const savedProgress = getSavedProgress(animeId);
+	inputCount.value = savedProgress;
+
+	const porcentAnime = Math.round((inputCount.value / anime.chapters) * 100);
+	const progress = document.querySelector(".progress-fill");
+	progress.style.width = `${porcentAnime}%`;
+
 	inputCount?.addEventListener("change", () => {
+		console.log("cambio");
 		if (inputCount.value > anime.chapters) {
 			inputCount.value = anime.chapters;
 		}
@@ -86,6 +94,9 @@ animeByID({ id: animeId }).then((anime) => {
 		const porcentAnime = Math.round((inputCount.value / anime.chapters) * 100);
 		const progress = document.querySelector(".progress-fill");
 		progress.style.width = `${porcentAnime}%`;
+	});
+	inputCount.addEventListener("blur", () => {
+		updateAnimeProgress(animeId, inputCount.value);
 	});
 });
 
@@ -133,4 +144,18 @@ function addProgresAnime({ id, chapters }) {
                 </div>
             </div>    
         `;
+}
+
+function updateAnimeProgress(animeId, count) {
+	const actualList = JSON.parse(window.localStorage.getItem("list") || "[]");
+	const updatedList = actualList.map((item) =>
+		item.id === animeId ? { ...item, count: parseInt(count) } : item,
+	);
+	window.localStorage.setItem("list", JSON.stringify(updatedList));
+}
+
+function getSavedProgress(animeId) {
+	const animeList = JSON.parse(window.localStorage.getItem("list") || "[]");
+	const anime = animeList.find((item) => item.id === animeId);
+	return anime?.count || 0;
 }
