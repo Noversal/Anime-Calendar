@@ -49,7 +49,7 @@ stateViewsButton.addEventListener("click", async (e) => {
 async function renderStateSection({ stateID }) {
 	const animesByState = JSON.parse(window.localStorage.getItem("list") || "[]");
 	const animeSelected = animesByState.map((anime) => {
-		if (anime.stateID === stateID) {
+		if (anime.stateID == stateID) {
 			return anime.id;
 		}
 		return null;
