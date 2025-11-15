@@ -94,6 +94,8 @@ animeByID({ id: animeId }).then((anime) => {
 		const porcentAnime = Math.round((inputCount.value / anime.chapters) * 100);
 		const progress = document.querySelector(".progress-fill");
 		progress.style.width = `${porcentAnime}%`;
+
+		updateAutoState(animeId, inputCount.value, anime.chapters);
 	});
 	inputCount.addEventListener("blur", () => {
 		updateAnimeProgress(animeId, inputCount.value);
@@ -158,4 +160,23 @@ function getSavedProgress(animeId) {
 	const animeList = JSON.parse(window.localStorage.getItem("list") || "[]");
 	const anime = animeList.find((item) => item.id === animeId);
 	return anime?.count || 0;
+}
+
+function getAutoState(count, totalChapters) {
+	if (count === 0) return 2; // Pendiente
+	if (count >= totalChapters) return 3; // Completado
+	return 1; // En Curso
+}
+
+function updateAnimeState(animeId, stateID) {
+	const actualList = JSON.parse(window.localStorage.getItem("list") || "[]");
+	const updatedList = actualList.map((item) =>
+		item.id === animeId ? { ...item, stateID: stateID } : item,
+	);
+	window.localStorage.setItem("list", JSON.stringify(updatedList));
+}
+
+function updateAutoState(animeId, count, totalChapters) {
+	const newState = getAutoState(count, totalChapters);
+	updateAnimeState(animeId, newState);
 }
