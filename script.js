@@ -1,10 +1,4 @@
-const getAllAnimes = async () => {
-	const response = await fetch("./animes.json");
-	const animes = response.json();
-	return animes;
-};
-
-function createSection({ animes, limit = 16 }) {
+function createSection({ animes }) {
 	const sectionAnimeContainer = document.createElement("section");
 	sectionAnimeContainer.classList.add("section-anime");
 
@@ -12,8 +6,7 @@ function createSection({ animes, limit = 16 }) {
 	containAnimes.classList.add("content-animes");
 
 	animes.forEach(({ title, img, id }, i) => {
-		if (i < limit) {
-			const card_anime = `
+		const card_anime = `
                           <article class="card_anime">
                               <a href="./pages/description/?id=${id}">
                                   <img width="230" height="370" src="${img}" alt="portada de ${title}">
@@ -22,8 +15,7 @@ function createSection({ animes, limit = 16 }) {
                               </a>
                           </article>
                       `;
-			containAnimes.innerHTML += card_anime;
-		}
+		containAnimes.innerHTML += card_anime;
 	});
 
 	sectionAnimeContainer.appendChild(containAnimes);
@@ -55,12 +47,19 @@ async function renderStateSection({ stateID }) {
 		return null;
 	});
 
-	const allAnimes = await getAllAnimes();
-	const animesSelected = allAnimes.filter((anime) => {
-		return animeSelected.includes(anime.id);
+	const response = await fetch("https://api-animecal.vercel.app/api/animes/by_ids", {
+		method: "POST",
+		headers: {
+			"Content-Type": "application/json",
+		},
+		body: JSON.stringify({ ids: animeSelected }),
 	});
+
+	const { animes } = await response.json();
+	console.log({ animes });
+
 	const sectionEmision = createSection({
-		animes: animesSelected,
+		animes,
 	});
 
 	template.innerHTML = "";
