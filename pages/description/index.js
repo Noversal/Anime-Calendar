@@ -1,11 +1,11 @@
-const getAllAnimes = async () => {
-	const response = await fetch("../../animes.json");
-	const animes = response.json();
-	return animes;
-};
+function fetchAnimes() {
+	return fetch("https://api-animecal.vercel.app/api/animes").then((response) =>
+		response.json(),
+	);
+}
 
 const animeByID = async ({ id }) => {
-	const animes = await getAllAnimes();
+	const { animes } = await fetchAnimes();
 	return animes.find((anime) => anime.id == id) ?? "";
 };
 
