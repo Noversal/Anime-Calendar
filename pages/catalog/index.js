@@ -1,5 +1,7 @@
+import { URL_API_BASE_PROD } from "../../const.js";
+
 function fetchAnimes() {
-	return fetch("https://api-animecal.vercel.app/api/animes").then((response) =>
+	return fetch(`${URL_API_BASE_PROD}/animes`).then((response) =>
 		response.json(),
 	);
 }
@@ -31,6 +33,7 @@ function createSection({ animes }) {
 
 const template = document.querySelector(".anime_container");
 fetchAnimes().then(({ animes }) => {
+	console.log(animes);
 	const animeSection = createSection({ animes });
 	template.appendChild(animeSection);
 });
@@ -69,15 +72,28 @@ genreTags.forEach((tag) => {
 });
 
 // Clear filters
-document.getElementById("clearFilters")?.addEventListener("click", () => {
+document.getElementById("clearBtn")?.addEventListener("click", async () => {
 	document.getElementById("minEpisodes").value = "";
 	document.getElementById("maxEpisodes").value = "";
-	genreTags.forEach((tag) => tag.classList.remove("active"));
+	genreTags.forEach((tag) => {
+		tag.classList.remove("active");
+	});
 	selectedGenres.clear();
+
+	const results = await fetch(`${URL_API_BASE_PROD}/animes`);
+	const { animes } = await results.json();
+
+	template.innerHTML = "";
+	const animeSection = createSection({ animes });
+	template.appendChild(animeSection);
+
+	filterDropdown.classList.remove("active");
 });
 
+const search = document.querySelector(".search");
+
 // Form submission (conecta aquí con tu API)
-document.querySelector(".search").addEventListener("submit", async (e) => {
+search.addEventListener("submit", async (e) => {
 	e.preventDefault();
 
 	const searchText = document.querySelector(".input_search").value;
@@ -86,15 +102,50 @@ document.querySelector(".search").addEventListener("submit", async (e) => {
 
 	const filters = {
 		text: searchText,
-		minEpisodes: minEpisodes || undefined,
-		maxEpisodes: maxEpisodes || undefined,
+		minEpisodes: minEpisodes || 1,
+		maxEpisodes: maxEpisodes || 50,
 		genre: Array.from(selectedGenres).join(",") || undefined,
 	};
 
-	console.log("Filtros aplicados:", filters);
-
 	// Aquí llamarías a tu API serverless
-	// const results = await fetch(`/api/animes?${new URLSearchParams(filters)}`);
+	const results = await fetch(
+		`${URL_API_BASE_PROD}/animes?${new URLSearchParams(filters)}`,
+	);
+	const { animes } = await results.json();
+	console.log(animes);
+
+	template.innerHTML = "";
+	const animeSection = createSection({ animes });
+	template.appendChild(animeSection);
 
 	filterDropdown.classList.remove("active");
+});
+
+const inputSeacrh = document.querySelector(".input_search");
+
+inputSeacrh?.addEventListener("blur", async (event) => {
+	const minEpisodes = document.getElementById("minEpisodes").value;
+	const maxEpisodes = document.getElementById("maxEpisodes").value;
+	const searchText = inputSeacrh.value;
+
+	const filters = {
+		text: searchText || "",
+		minEpisodes: minEpisodes ?? 1,
+		maxEpisodes: maxEpisodes ?? 50,
+		genre: Array.from(selectedGenres).join(",") || undefined,
+	};
+
+	// Aquí llamarías a tu API serverless
+	const results = await fetch(
+		`${URL_API_BASE_PROD}/animes?${new URLSearchParams(filters)}`,
+	);
+
+	console.log(`${URL_API_BASE_PROD}/animes?${new URLSearchParams(filters)}`);
+	const data = await results.json();
+	const { animes } = data;
+	console.log(animes);
+
+	template.innerHTML = "";
+	const animeSection = createSection({ animes });
+	template.appendChild(animeSection);
 });

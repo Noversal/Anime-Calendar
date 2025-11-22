@@ -1,5 +1,7 @@
+import { URL_API_BASE_PROD } from "../../const.js";
+
 function fetchAnimes() {
-	return fetch("https://api-animecal.vercel.app/api/animes").then((response) =>
+	return fetch(`${URL_API_BASE_PROD}/animes`).then((response) =>
 		response.json(),
 	);
 }
@@ -70,6 +72,7 @@ animeByID({ id: animeId }).then((anime) => {
 				JSON.stringify([...actualList, { id: anime.id, stateID: 2, count: 0 }]),
 			);
 		}
+		window.location.reload();
 	});
 
 	const inputCount = document.getElementById(`progress-${animeId}`);

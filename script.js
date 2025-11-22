@@ -1,3 +1,5 @@
+import { URL_API_BASE_PROD } from "./const.js";
+
 function createSection({ animes }) {
 	const sectionAnimeContainer = document.createElement("section");
 	sectionAnimeContainer.classList.add("section-anime");
@@ -47,7 +49,7 @@ async function renderStateSection({ stateID }) {
 		return null;
 	});
 
-	const response = await fetch("https://api-animecal.vercel.app/api/animes/by_ids", {
+	const response = await fetch(`${URL_API_BASE_PROD}/animes/by_ids`, {
 		method: "POST",
 		headers: {
 			"Content-Type": "application/json",
