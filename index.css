@@ -12,11 +12,7 @@
     flex-wrap: wrap;
 }
 
-.header-anime {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
+
 
 .content-animes {
     display: flex;
