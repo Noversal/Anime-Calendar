@@ -29,12 +29,6 @@
     width: 100%;
 }
 
-/*  */
-
-
-
-/*  */
-
 .filter-dropdown {
     position: absolute;
     top: calc(100% + 10px);
@@ -142,6 +136,13 @@
     border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
+.dropdown_button-actions
+{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
 .btn-apply {
     flex: 1;
     background: linear-gradient(135deg, #ff0080 0%, #ff8c00 100%);
@@ -159,6 +160,7 @@
 }
 
 .btn-clear {
+    flex: 1;
     background: rgba(255, 255, 255, 0.05);
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 8px;
@@ -307,13 +309,6 @@ fieldset {
     color: rgba(255, 255, 255, 0.9);
     margin-bottom: 16px;
 }
-
-
-
-
-
-
-
 
 .genre-tags {
     display: flex;

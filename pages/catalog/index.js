@@ -33,7 +33,6 @@ function createSection({ animes }) {
 
 const template = document.querySelector(".anime_container");
 fetchAnimes().then(({ animes }) => {
-	console.log(animes);
 	const animeSection = createSection({ animes });
 	template.appendChild(animeSection);
 });
