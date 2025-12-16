@@ -136,8 +136,7 @@
     border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-.dropdown_button-actions
-{
+.dropdown_button-actions {
     display: flex;
     flex-direction: row;
     gap: 12px;
@@ -393,9 +392,6 @@ fieldset {
     height: 200%;
     opacity: 0;
 }
-
-
-
 
 @media (max-width: 768px) {
     .filter-dropdown {
