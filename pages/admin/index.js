@@ -112,7 +112,7 @@ formAdd.addEventListener("submit", async (e) => {
 
 	await animeService.createAnime({ title, chapters, img, description, genders });
 	modalAdd.close();
-
+	e.target.reset();
 });
 
 const btnCloseModal = document.querySelector(".btn-close-modal");
