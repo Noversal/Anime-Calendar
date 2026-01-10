@@ -91,7 +91,7 @@
                         </button>
                         <p>Agregar Anime</p>
                     </header>
-                    <form id="add-form">
+                    <form id="add-form" class="admin-form">
                         <label for="title">Título</label>
                         <input type="text" name="title" id="title" placeholder="Título" required>
                         <label for="description">Descripción</label>
@@ -99,37 +99,257 @@
                         </textarea>
                         <label for="image">URL de la imagen</label>
                         <input type="text" name="image" id="image" placeholder="URL de la imagen" required>
-                        <label>Generos</label>
-                        <select name="gender" id="gender">
-                            <option value="" disabled selected>Seleccionar género</option>
-                            <option value="Acción">Acción</option>
-                            <option value="Aventura">Aventura</option>
-                            <option value="Ciencia Ficción">Ciencia Ficción</option>
-                            <option value="Comedia">Comedia</option>
-                            <option value="Deportes">Deportes</option>
-                            <option value="Drama">Drama</option>
-                            <option value="Escolar">Escolar</option>
-                            <option value="Fantasía">Fantasía</option>
-                            <option value="Histórico">Histórico</option>
-                            <option value="Horror">Horror</option>
-                            <option value="Ídolos">Ídolos</option>
-                            <option value="Isekai">Isekai</option>
-                            <option value="Militar">Militar</option>
-                            <option value="Misterio">Misterio</option>
-                            <option value="Música">Música</option>
-                            <option value="Psicológico">Psicológico</option>
-                            <option value="Recuentos de la vida">Recuentos de la vida</option>
-                            <option value="Romance">Romance</option>
-                            <option value="Seinen">Seinen</option>
-                            <option value="Shoujo">Shoujo</option>
-                            <option value="Shounen">Shounen</option>
-                            <option value="Sobrenatural">Sobrenatural</option>
-                            <option value="Superhéroes">Superhéroes</option>
-                            <option value="Thriller">Thriller</option>
-                        </select>
+                        <label>Géneros <span class="counter" id="add-selectedCounter">(0 seleccionados)</span></label>
+                        <div class="genres-container" id="add-genresContainer">
+                            <div class="genre-group">
+                                <label class="genre-item">
+                                    <input type="checkbox" name="gender" value="Acción" class="genre-checkbox">
+                                    <span class="genre-tag">Acción</span>
+                                </label>
+                                <label class="genre-item">
+                                    <input type="checkbox" name="gender" value="Aventura" class="genre-checkbox">
+                                    <span class="genre-tag">Aventura</span>
+                                </label>
+                                <label class="genre-item">
+                                    <input type="checkbox" name="gender" value="Ciencia Ficción" class="genre-checkbox">
+                                    <span class="genre-tag">Ciencia Ficción</span>
+                                </label>
+                                <label class="genre-item">
+                                    <input type="checkbox" name="gender" value="Comedia" class="genre-checkbox">
+                                    <span class="genre-tag">Comedia</span>
+                                </label>
+                                <label class="genre-item">
+                                    <input type="checkbox" name="gender" value="Deportes" class="genre-checkbox">
+                                    <span class="genre-tag">Deportes</span>
+                                </label>
+                                <label class="genre-item">
+                                    <input type="checkbox" name="gender" value="Drama" class="genre-checkbox">
+                                    <span class="genre-tag">Drama</span>
+                                </label>
+                                <label class="genre-item">
+                                    <input type="checkbox" name="gender" value="Escolar" class="genre-checkbox">
+                                    <span class="genre-tag">Escolar</span>
+                                </label>
+                                <label class="genre-item">
+                                    <input type="checkbox" name="gender" value="Fantasía" class="genre-checkbox">
+                                    <span class="genre-tag">Fantasía</span>
+                                </label>
+                                <label class="genre-item">
+                                    <input type="checkbox" name="gender" value="Histórico" class="genre-checkbox">
+                                    <span class="genre-tag">Histórico</span>
+                                </label>
+                                <label class="genre-item">
+                                    <input type="checkbox" name="gender" value="Horror" class="genre-checkbox">
+                                    <span class="genre-tag">Horror</span>
+                                </label>
+                                <label class="genre-item">
+                                    <input type="checkbox" name="gender" value="Ídolos" class="genre-checkbox">
+                                    <span class="genre-tag">Ídolos</span>
+                                </label>
+                                <label class="genre-item">
+                                    <input type="checkbox" name="gender" value="Isekai" class="genre-checkbox">
+                                    <span class="genre-tag">Isekai</span>
+                                </label>
+                                <label class="genre-item">
+                                    <input type="checkbox" name="gender" value="Militar" class="genre-checkbox">
+                                    <span class="genre-tag">Militar</span>
+                                </label>
+                                <label class="genre-item">
+                                    <input type="checkbox" name="gender" value="Misterio" class="genre-checkbox">
+                                    <span class="genre-tag">Misterio</span>
+                                </label>
+                                <label class="genre-item">
+                                    <input type="checkbox" name="gender" value="Música" class="genre-checkbox">
+                                    <span class="genre-tag">Música</span>
+                                </label>
+                                <label class="genre-item">
+                                    <input type="checkbox" name="gender" value="Psicológico" class="genre-checkbox">
+                                    <span class="genre-tag">Psicológico</span>
+                                </label>
+                                <label class="genre-item">
+                                    <input type="checkbox" name="gender" value="Recuentos de la vida"
+                                        class="genre-checkbox">
+                                    <span class="genre-tag">Recuentos de la vida</span>
+                                </label>
+                                <label class="genre-item">
+                                    <input type="checkbox" name="gender" value="Romance" class="genre-checkbox">
+                                    <span class="genre-tag">Romance</span>
+                                </label>
+                                <label class="genre-item">
+                                    <input type="checkbox" name="gender" value="Seinen" class="genre-checkbox">
+                                    <span class="genre-tag">Seinen</span>
+                                </label>
+                                <label class="genre-item">
+                                    <input type="checkbox" name="gender" value="Shoujo" class="genre-checkbox">
+                                    <span class="genre-tag">Shoujo</span>
+                                </label>
+                                <label class="genre-item">
+                                    <input type="checkbox" name="gender" value="Shounen" class="genre-checkbox">
+                                    <span class="genre-tag">Shounen</span>
+                                </label>
+                                <label class="genre-item">
+                                    <input type="checkbox" name="gender" value="Sobrenatural" class="genre-checkbox">
+                                    <span class="genre-tag">Sobrenatural</span>
+                                </label>
+                                <label class="genre-item">
+                                    <input type="checkbox" name="gender" value="Superhéroes" class="genre-checkbox">
+                                    <span class="genre-tag">Superhéroes</span>
+                                </label>
+                                <label class="genre-item">
+                                    <input type="checkbox" name="gender" value="Thriller" class="genre-checkbox">
+                                    <span class="genre-tag">Thriller</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="genre-toggle-wrapper">
+                            <button type="button" class="toggle-btn" id="add-expandBtn">
+                                Ver más géneros
+                            </button>
+                            <button type="button" class="toggle-btn" id="add-collapseBtn" hidden>
+                                Mostrar menos
+                            </button>
+                        </div>
                         <label>Episodios</label>
                         <input type="number" name="chapters" id="chapters" placeholder="Episodios" required>
                         <button type="submit" class="btn btn-add">Agregar</button>
+                    </form>
+                </dialog>
+                <dialog id="update-modal" class="confirm-modal">
+                    <header class="modal-header">
+                        <button class="btn-close-modal">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <line x1="18" y1="6" x2="6" y2="18"></line>
+                                <line x1="6" y1="6" x2="18" y2="18"></line>
+                            </svg>
+                        </button>
+                        <p>Actulizar Anime</p>
+                    </header>
+                    <form id="update-form" class="admin-form">
+                        <label for="old_title">Título</label>
+                        <input type="text" name="old_title" id="old_title" placeholder="Título">
+                        <label for="old_description">Descripción</label>
+                        <textarea height="100" name="old_description" id="old_description" placeholder="Descripción">
+                        </textarea>
+                        <label for="old_image">URL de la imagen</label>
+                        <input type="text" name="old_image" id="old_image" placeholder="URL de la imagen">
+                        <label>Géneros <span class="counter" id="update-selectedCounter">(0
+                                seleccionados)</span></label>
+                        <div class="genres-container" id="update-genresContainer">
+                            <div class="genre-group">
+                                <label class="genre-item">
+                                    <input type="checkbox" name="old_gender" value="Acción" class="genre-checkbox">
+                                    <span class="genre-tag">Acción</span>
+                                </label>
+                                <label class="genre-item">
+                                    <input type="checkbox" name="old_gender" value="Aventura" class="genre-checkbox">
+                                    <span class="genre-tag">Aventura</span>
+                                </label>
+                                <label class="genre-item">
+                                    <input type="checkbox" name="old_gender" value="Ciencia Ficción"
+                                        class="genre-checkbox">
+                                    <span class="genre-tag">Ciencia Ficción</span>
+                                </label>
+                                <label class="genre-item">
+                                    <input type="checkbox" name="old_gender" value="Comedia" class="genre-checkbox">
+                                    <span class="genre-tag">Comedia</span>
+                                </label>
+                                <label class="genre-item">
+                                    <input type="checkbox" name="old_gender" value="Deportes" class="genre-checkbox">
+                                    <span class="genre-tag">Deportes</span>
+                                </label>
+                                <label class="genre-item">
+                                    <input type="checkbox" name="old_gender" value="Drama" class="genre-checkbox">
+                                    <span class="genre-tag">Drama</span>
+                                </label>
+                                <label class="genre-item">
+                                    <input type="checkbox" name="old_gender" value="Escolar" class="genre-checkbox">
+                                    <span class="genre-tag">Escolar</span>
+                                </label>
+                                <label class="genre-item">
+                                    <input type="checkbox" name="old_gender" value="Fantasía" class="genre-checkbox">
+                                    <span class="genre-tag">Fantasía</span>
+                                </label>
+                                <label class="genre-item">
+                                    <input type="checkbox" name="old_gender" value="Histórico" class="genre-checkbox">
+                                    <span class="genre-tag">Histórico</span>
+                                </label>
+                                <label class="genre-item">
+                                    <input type="checkbox" name="old_gender" value="Horror" class="genre-checkbox">
+                                    <span class="genre-tag">Horror</span>
+                                </label>
+                                <label class="genre-item">
+                                    <input type="checkbox" name="old_gender" value="Ídolos" class="genre-checkbox">
+                                    <span class="genre-tag">Ídolos</span>
+                                </label>
+                                <label class="genre-item">
+                                    <input type="checkbox" name="old_gender" value="Isekai" class="genre-checkbox">
+                                    <span class="genre-tag">Isekai</span>
+                                </label>
+                                <label class="genre-item">
+                                    <input type="checkbox" name="old_gender" value="Militar" class="genre-checkbox">
+                                    <span class="genre-tag">Militar</span>
+                                </label>
+                                <label class="genre-item">
+                                    <input type="checkbox" name="old_gender" value="Misterio" class="genre-checkbox">
+                                    <span class="genre-tag">Misterio</span>
+                                </label>
+                                <label class="genre-item">
+                                    <input type="checkbox" name="old_gender" value="Música" class="genre-checkbox">
+                                    <span class="genre-tag">Música</span>
+                                </label>
+                                <label class="genre-item">
+                                    <input type="checkbox" name="old_gender" value="Psicológico" class="genre-checkbox">
+                                    <span class="genre-tag">Psicológico</span>
+                                </label>
+                                <label class="genre-item">
+                                    <input type="checkbox" name="old_gender" value="Recuentos de la vida"
+                                        class="genre-checkbox">
+                                    <span class="genre-tag">Recuentos de la vida</span>
+                                </label>
+                                <label class="genre-item">
+                                    <input type="checkbox" name="old_gender" value="Romance" class="genre-checkbox">
+                                    <span class="genre-tag">Romance</span>
+                                </label>
+                                <label class="genre-item">
+                                    <input type="checkbox" name="old_gender" value="Seinen" class="genre-checkbox">
+                                    <span class="genre-tag">Seinen</span>
+                                </label>
+                                <label class="genre-item">
+                                    <input type="checkbox" name="old_gender" value="Shoujo" class="genre-checkbox">
+                                    <span class="genre-tag">Shoujo</span>
+                                </label>
+                                <label class="genre-item">
+                                    <input type="checkbox" name="old_gender" value="Shounen" class="genre-checkbox">
+                                    <span class="genre-tag">Shounen</span>
+                                </label>
+                                <label class="genre-item">
+                                    <input type="checkbox" name="old_gender" value="Sobrenatural"
+                                        class="genre-checkbox">
+                                    <span class="genre-tag">Sobrenatural</span>
+                                </label>
+                                <label class="genre-item">
+                                    <input type="checkbox" name="old_gender" value="Superhéroes" class="genre-checkbox">
+                                    <span class="genre-tag">Superhéroes</span>
+                                </label>
+                                <label class="genre-item">
+                                    <input type="checkbox" name="old_gender" value="Thriller" class="genre-checkbox">
+                                    <span class="genre-tag">Thriller</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="genre-toggle-wrapper">
+                            <button type="button" class="toggle-btn" id="update-expandBtn">
+                                Ver más géneros
+                            </button>
+                            <button type="button" class="toggle-btn" id="update-collapseBtn" hidden>
+                                Mostrar menos
+                            </button>
+                        </div>
+                        <label>Episodios</label>
+                        <input type="number" name="old_chapters" id="old_chapters" placeholder="Episodios">
+                        <button type="submit" class="btn btn-add">Enviar</button>
                     </form>
                 </dialog>
             </div>
