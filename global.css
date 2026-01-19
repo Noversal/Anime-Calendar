@@ -191,3 +191,57 @@ select {
 .card_anime:hover h3 {
     visibility: visible;
 }
+
+.loader {
+    width: 48px;
+    height: 48px;
+    border: 3px solid var(--slate-800);
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+}
+
+.loader::after {
+    content: '';
+    box-sizing: border-box;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    border: 3px solid;
+    border-color: var(--fuchsia-pink-600) transparent;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.container-status {
+    color: var(--slate-600);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 70dvh;
+    width: 100%;
+    gap: 16px;
+}
+
+.empty_state {
+    aspect-ratio: 1;
+}
+
+.error_state {
+    aspect-ratio: 1;
+}
