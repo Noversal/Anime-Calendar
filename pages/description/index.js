@@ -28,12 +28,13 @@ if (animeById.status === 404) {
 else {
 
 	const anime = animeById;
-
+	const imageFallback = "../../public/fallback-image.png";
+	
 	const animeDescription = `<section class="anime-viewer">
                 <article class="card-description">
                     <header>
                         <picture class="poster">
-                            <img src="${anime.img}" alt="Caratula de el anime ${anime.title}">
+                            <img src="${anime.img || imageFallback}" alt="Caratula de el anime ${anime.title}">
                         </picture>
                     </header>
         

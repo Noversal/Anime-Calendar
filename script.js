@@ -6,12 +6,13 @@ function createSection({ animes }) {
 
 	const containAnimes = document.createElement("div");
 	containAnimes.classList.add("content-animes");
+	const imageFallback = "./public/fallback-image.png";
 
 	animes.forEach(({ title, img, id }, i) => {
 		const card_anime = `
                           <article class="card_anime">
                               <a href="./pages/description/?id=${id}">
-                                  <img width="230" height="370" src="${img}" alt="portada de ${title}">
+                                  <img width="230" height="370" src="${img || imageFallback}" alt="portada de ${title}">
                                   <div class="shadow"></div>
                                   <h3>${title}</h3>
                               </a>

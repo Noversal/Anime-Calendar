@@ -5,8 +5,9 @@ function fetchAnimes() {
 		response.json(),
 	);
 }
-
 function createSection({ animes }) {
+	const imageFallback = "../../public/fallback-image.png";
+
 	const sectionAnimeContainer = document.createElement("section");
 	sectionAnimeContainer.classList.add("section-anime");
 
@@ -17,7 +18,7 @@ function createSection({ animes }) {
 		const card_anime = `
                           <article class="card_anime">
                               <a href="../description/?id=${id}">
-                                  <img width="230" height="370" src="${img}" alt="portada de ${title}">
+                                  <img width="230" height="370" src="${img || imageFallback}" alt="portada de ${title}">
                                   <div class="shadow"></div>
                                   <h3>${title}</h3>
                               </a>
