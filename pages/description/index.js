@@ -8,14 +8,26 @@ function fetchAnimes() {
 
 const animeByID = async ({ id }) => {
 	const { animes } = await fetchAnimes();
-	return animes.find((anime) => anime.id == id) ?? "";
+	return animes.find((anime) => anime.id == id) ?? { status: 404, message: "Anime no encontrado" };
 };
 
 const params = new URLSearchParams(window.location.search);
 const animeId = params.get("id");
 
-animeByID({ id: animeId }).then((anime) => {
-	const containerDescription = document.querySelector(".container-description");
+const animeById = await animeByID({ id: animeId });
+
+const containerDescription = document.querySelector(".container-description");
+
+if (animeById.status === 404) {
+	containerDescription.innerHTML = `
+			<img src="../../public/error_state.png" width="300" alt="Error al cargar" class="error_state">
+			<p>No se encontro el anime</p>
+			<a href="../../pages/catalog" class="back-button"><span>Regresar al catalogo</span></a>
+		`;
+}
+else {
+
+	const anime = animeById;
 
 	const animeDescription = `<section class="anime-viewer">
                 <article class="card-description">
@@ -103,7 +115,10 @@ animeByID({ id: animeId }).then((anime) => {
 	inputCount.addEventListener("blur", () => {
 		updateAnimeProgress(animeId, inputCount.value);
 	});
-});
+}
+
+
+
 
 function addAnimeMyList() {
 	return `
